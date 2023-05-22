@@ -1,0 +1,100 @@
+.TH nmsg-dnstap 1
+
+.SH NAME
+
+nmsg-dnstap \- Receive Frame Streams data from a socket and sends to ZeroMQ or UDP endpoint(s).
+
+.SH SYNOPSIS
+
+.B nmsg-dnstap [ -w \fIzep\fB [ -w ... ] ] [ -s \fIsep\fB [ -s ... ] ]
+.br
+.B "	[ -u \fIsocket-path\fB ] [ -a \fIIP\fB -p \fIport\fB ]"
+.br
+.B "	[ -t \fIcontent-type\fB ] [ -b \fIbuffer-size\fB ]"
+.br
+.B "	[ -d [-d ...] ]"
+
+.PP
+
+.B nmsg-dnstap [ --write \fIzep\fB [ --write ... ] ]
+.br
+.B "	[ --writesock \fIsep\fB [ --writesock ... ] ]
+.br
+.B "	[ --unix \fIsocket-path\fB ] [ --tcp \fIIP\fB --port \fIport\fB ]"
+.br
+.B "	[ --type \fIcontent-type\fB ] [ --buffersize \fIbuffer-size\fB ]"
+.br
+.B "	[ --debug [--debug ...] ]"
+
+
+.SH DESCRIPTION
+
+.B nmsg-dnstap
+listens on a UNIX domain or TCP socket, receives Frame Streams data,
+and sends to ZeroMQ endpoint(s) and/or UDP-socket endpoint(s).
+
+.SH OPTIONS
+
+.TP
+.B -w \fIzep\fB | --write \fIzep\fB
+Write data to a ZeroMQ endpoint.
+See \fInmsgtool\fR man-page for a full description of the options available here.
+
+.TP
+.B -s \fIsep\fB | --writesock \fIsep\fB
+Write data to a UDP socket endpoint. This is of the form \fIIPAddress/Port\fR.
+There must be at least one \fB-w/--write\fR or \fB-s/--writesock\fR option specified.
+
+.TP
+.B -t \fIcontent-type\fB | --type \fIcontent-type\fB
+Specify the \fIcontent-type\fR to receive from the socket and send
+to the ZeroMQ endpoints(s). The default is \fIprotobuf:dnstap.Dnstap\fB
+
+.TP
+.B -u \fIsocket-path\fB | --unix \fIsocket-path\fB
+Listen on the Unix domain socket \fIsocket-path\fR to receive Frame
+Streams data. Only one of \fB-u\fR or \fB-a\fR may be given.
+
+.TP
+.B -a \fIIP\fB | --tcp \fIIP\fB
+Listen for TCP connections on address \fIIP\fR to receive Frame Streams
+data. Only one of \fB-u\fR or \fB-a\fR may be given. Use of \fB-a\fR
+requires a port given with \fB-p\fR.
+
+.TP
+.B -p \fIport\fB | --port \fIport\fB
+If \fB-a\fR is given, listen on TCP port \fIport\fR to receive Frame
+Streams data.
+
+.TP
+.B -b \fIbuffersize\fB | --buffersize \fIbuffersize\fB
+Set read buffer size to \fIbuffersize\fR bytes.
+The \fIbuffersize\fR also affects the maximum frame size which
+\fBnmsg-dnstap\fR will accept. Frames larger than \fIbuffersize\fR,
+including the 4-byte framing overhead, will be discarded.
+
+The default \fIbuffersize\fR is 262144 (256KiB).
+
+.TP
+.B -d [ -d ... ] | --debug [ --debug ]
+Increase debugging level. Without \fB-d\fR, \fBnmsg-dnstap\fR prints only
+critical error messages. Up to five \fB-d\fR options may be specified, after
+which more repetitions will have no effect.
+
+.SH EXAMPLES
+
+Receive dnstap data and send to ZeroMQ endpoint \fI/tmp/nmsg.sock\fR on the local machine.
+
+.nf
+	nmsg-dnstap -u /var/run/named/dnstap.sock \\
+		-w ipc::///tmp/nmsg.sock,accept,pushpull
+.fi
+
+.SH SEE ALSO
+
+.BR nmsgtool (1),
+.BR fstrm_capture (1),
+.BR fstrm_dump (1),
+.BR fstrm_replay (1),
+.br
+Frame Streams C Library \fBhttps://farsightsec.github.io/fstrm\fR

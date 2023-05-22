@@ -1,0 +1,13 @@
+*.swp
+*.o
+*.tar.gz
+.deps/
+.dirstamp
+/aclocal.m4
+/autom4te.cache
+/config.*
+/configure
+/stamp-h1
+Makefile
+Makefile.in
+nmsg-dnstap
