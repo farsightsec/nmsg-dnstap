@@ -1,0 +1,10 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+
+Files: *
+Copyright: 2023 DomainTools LLC
+License: Proprietary
+ All Rights Reserved
+ .
+ THIS IS UNPUBLISHED PROPRIETARY SOURCE CODE OF FARSIGHT SECURITY, INC.
+ The copyright notice above does not evidence any actual or intended
+ publication of such source code.

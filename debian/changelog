@@ -1,0 +1,5 @@
+nmsg-dnstap (0.1.0-1) debian-fsi; urgency=medium
+
+  * Initial release.
+
+ -- Farsight Security, Inc. <software@farsightsecurity.com>  Tue, 08 Aug 2023 23:21:04 +0000
