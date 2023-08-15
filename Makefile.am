@@ -1,6 +1,8 @@
 bin_PROGRAMS =
 EXTRA_DIST =
+TESTS =
 CLEANFILES =
+DISTCLEANFILES =
 ACLOCAL_AMFLAGS = -I m4 ${ACLOCAL_FLAGS}
 
 AM_CPPFLAGS = \
@@ -31,3 +33,17 @@ src_nmsg_dnstap_SOURCES = \
 	libmy/print_string.h
 
 man_MANS = man/nmsg-dnstap.1
+
+AM_TESTS_ENVIRONMENT= abs_top_builddir='$(abs_top_builddir)' abs_top_srcdir='$(abs_top_srcdir)'
+
+TESTS += tests/test-unix-domain-to-nmsg-udp-sock-pres.sh
+TESTS += tests/test-tcp-to-nmsg-zeromq-json.sh
+
+EXTRA_DIST += $(TESTS)
+
+EXTRA_DIST += \
+	tests/dnstap-input-data \
+	tests/nmsgtool.dnstap.json \
+	tests/nmsgtool.dnstap.pres
+
+DISTCLEANFILES += tests/test-*.out
