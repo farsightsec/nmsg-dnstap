@@ -25,6 +25,8 @@ nmsg-dnstap \- Receive Frame Streams DNSTAP from a socket and sends NMSG to Zero
 .B "	[ --type \fIcontent-type\fB ] [ --buffersize \fIbuffer-size\fB ]"
 .br
 .B "	[ --debug [--debug ...] ]"
+.br
+.B "	[ --unbuffered ]"
 
 
 .SH DESCRIPTION
@@ -81,6 +83,11 @@ The default \fIbuffersize\fR is 262144 (256KiB).
 Increase debugging level. Without \fB-d\fR, \fBnmsg-dnstap\fR prints only
 critical error messages. Up to five \fB-d\fR options may be specified, after
 which more repetitions will have no effect.
+
+.TP
+.B --unbuffered
+Disable NMSG output buffering.
+This may be useful for testing.
 
 .SH EXAMPLES
 
