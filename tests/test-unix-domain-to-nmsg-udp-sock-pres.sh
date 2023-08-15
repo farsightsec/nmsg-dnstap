@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/sh -x
 
 # This test reads dnstap input from a Unix domain socket
 # and writes nmsg to a UDP socket.
@@ -61,6 +61,8 @@ else
   status=1
   echo FAIL
 fi
+
+diff -u ${abs_top_srcdir}/tests/nmsgtool.dnstap.pres ${abs_top_builddir}/tests/${TEST}-nmsgtool.dnstap.pres.no-timestamps.out
 
 exit $status
 
