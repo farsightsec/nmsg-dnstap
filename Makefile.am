@@ -27,4 +27,7 @@ src_nmsg_dnstap_SOURCES = \
 	libmy/argv.c \
 	libmy/argv.h \
 	libmy/argv_loc.h \
-	libmy/my_alloc.h
+	libmy/my_alloc.h \
+	libmy/print_string.h
+
+man_MANS = man/nmsg-dnstap.1

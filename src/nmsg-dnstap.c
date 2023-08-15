@@ -157,13 +157,13 @@ static argv_t g_args[] = {
 		ARGV_CHAR_P | ARGV_FLAG_ARRAY,
 		&g_program_args.w_sock,
 		"<sep>",
-		"write nmsg data to socket (addr/port)" },
+		"write nmsg data to UDP socket (addr/port)" },
 
-	{ 'w', "write",
+	{ 'w', "writezsock",
 		ARGV_CHAR_P | ARGV_FLAG_ARRAY,
 		&g_program_args.w_zmq,
 		"<zep>",
-		"write output data to ZeroMQ endpoint" },
+		"write nmsg data to ZeroMQ endpoint" },
 
 	{ ARGV_LAST, 0, 0, 0, 0, 0 },
 };
