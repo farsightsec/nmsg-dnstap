@@ -16,31 +16,37 @@ NMSG_DNSTAP=${NMSG_DNSTAP:-${abs_top_builddir}/src/nmsg-dnstap}
 
 # due to filename length limitation use /tmp instead of ${abs_top_builddir}
 NMSG_ZEROMQ_SOCKET="ipc:///tmp/${TEST}.zeromq.sock"
-DNSTAP_IP=127.0.0.1	# TCP
-DNSTAP_PORT=9999
+NMSG_DNSTAP_IP=127.0.0.1	# TCP
+NMSG_DNSTAP_PORT=9999
 DNSTAP_INPUT=${abs_top_srcdir}/tests/dnstap-input-data
 
 # remove old outputs
 rm -f ${abs_top_builddir}/tests/${TEST}*.out
 
 echo start nmsgtool to listen for the nmsg via UDP
-$NMSGTOOL --readzsock ${NMSG_ZEROMQ_SOCKET},connect,pushpull --writejson ${abs_top_builddir}/tests/${TEST}-nmsgtool.dnstap.json.out &
+$NMSGTOOL -ddd --unbuffered --readzsock ${NMSG_ZEROMQ_SOCKET},connect,pushpull --writejson ${abs_top_builddir}/tests/${TEST}-nmsgtool.dnstap.json.out 2>${abs_top_builddir}/tests/${TEST}-nmsgtool.dnstap.json.stderr.out &
 NMSGTOOL_PID=$!
+
+sleep 0.25
+if ! kill -0 $NMSGTOOL_PID 2>/dev/null; then
+  echo $NMSGTOOL not started
+  exit 1
+fi
 
 # this sets the content-type to the default value
 
 echo start nmsg-dnstap to read TCP socket and write nmsg via Zeromq
-$NMSG_DNSTAP -ddddd --type protobuf:dnstap.Dnstap --writezsock ${NMSG_ZEROMQ_SOCKET},accept,pushpull --tcp ${DNSTAP_IP} --port ${DNSTAP_PORT} 2>${abs_top_builddir}/tests/${TEST}-nmsg-dnstap.stderr.out &
+$NMSG_DNSTAP -ddddd --unbuffered --type protobuf:dnstap.Dnstap --writezsock ${NMSG_ZEROMQ_SOCKET},accept,pushpull --tcp ${NMSG_DNSTAP_IP} --port ${NMSG_DNSTAP_PORT} 2>${abs_top_builddir}/tests/${TEST}-nmsg-dnstap.stderr.out &
 NMSG_DNSTAP_PID=$!
 
 # make sure the listener is up
-sleep 0.5
+sleep 0.25
 
 echo send existing testing dnstap data using fstrm_replay to the TCP socket
-${FSTRM_REPLAY} --tcp ${DNSTAP_IP} --port ${DNSTAP_PORT} --read-file ${DNSTAP_INPUT} --type protobuf:dnstap.Dnstap
+${FSTRM_REPLAY} --tcp ${NMSG_DNSTAP_IP} --port ${NMSG_DNSTAP_PORT} --read-file ${DNSTAP_INPUT} --type protobuf:dnstap.Dnstap
 
 # make sure the output is saved
-sleep 0.5
+sleep 0.25
 
 # stop the processes
 kill $NMSG_DNSTAP_PID
