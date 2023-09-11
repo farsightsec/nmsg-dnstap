@@ -40,7 +40,7 @@ $NMSG_DNSTAP -ddddd --unbuffered --type protobuf:dnstap.Dnstap --writezsock ${NM
 NMSG_DNSTAP_PID=$!
 
 # make sure the listener is up
-sleep 0.25
+sleep 1
 
 echo send existing testing dnstap data using fstrm_replay to the TCP socket
 ${FSTRM_REPLAY} --tcp ${NMSG_DNSTAP_IP} --port ${NMSG_DNSTAP_PORT} --read-file ${DNSTAP_INPUT} --type protobuf:dnstap.Dnstap
@@ -67,6 +67,7 @@ if [ $? = "0" ]; then
 else
   status=1
   echo FAIL
+  cat ${abs_top_builddir}/tests/${TEST}-nmsg-dnstap.stderr.out
 fi
 
 exit $status
