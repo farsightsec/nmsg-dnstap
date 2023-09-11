@@ -8,6 +8,9 @@
 /config.*
 /configure
 /stamp-h1
+tests/test-*.log
+tests/test-*.out
+tests/test-*.trs
 Makefile
 Makefile.in
 nmsg-dnstap
