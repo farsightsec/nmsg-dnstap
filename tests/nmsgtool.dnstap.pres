@@ -1,0 +1,2340 @@
+[137] [TIMESTAMP REMOVED] [1:13 base dnstap] [00000000] [] [] 
+identity: <BYTE ARRAY LEN=30>
+version: <BYTE ARRAY LEN=19>
+type: MESSAGE
+message_type: RESOLVER_QUERY
+socket_family: INET
+socket_protocol: UDP
+query_address: 172.31.9.234
+query_port: 41487
+query_time_sec: 1692031225
+query_time_nsec: 902424567
+query_message: [40 octets]
+;; ->>HEADER<<- opcode: QUERY, rcode: NOERROR, id: 60922
+;; flags: cd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags: do; udp: 512
+; OPT=10: 7e 11 95 cb 4f 3b 97 cc ("~...O;..")
+;; QUESTION SECTION:
+;. IN DNSKEY
+
+;; ANSWER SECTION:
+
+;; AUTHORITY SECTION:
+
+;; ADDITIONAL SECTION:
+---
+response_address: 199.7.91.13
+response_port: 53
+query_zone: .
+id: 60922
+qname: .
+qclass: IN (1)
+qtype: DNSKEY (48)
+rcode: NOERROR (0)
+
+[137] [TIMESTAMP REMOVED] [1:13 base dnstap] [00000000] [] [] 
+identity: <BYTE ARRAY LEN=30>
+version: <BYTE ARRAY LEN=19>
+type: MESSAGE
+message_type: RESOLVER_QUERY
+socket_family: INET
+socket_protocol: UDP
+query_address: 172.31.9.234
+query_port: 37844
+query_time_sec: 1692031225
+query_time_nsec: 942424762
+query_message: [40 octets]
+;; ->>HEADER<<- opcode: QUERY, rcode: NOERROR, id: 20246
+;; flags:; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags: do; udp: 512
+; OPT=10: 7e 11 95 cb 4f 3b 97 cc ("~...O;..")
+;; QUESTION SECTION:
+;. IN NS
+
+;; ANSWER SECTION:
+
+;; AUTHORITY SECTION:
+
+;; ADDITIONAL SECTION:
+---
+response_address: 199.7.91.13
+response_port: 53
+query_zone: .
+id: 20246
+qname: .
+qclass: IN (1)
+qtype: NS (2)
+rcode: NOERROR (0)
+
+[136] [TIMESTAMP REMOVED] [1:13 base dnstap] [00000000] [] [] 
+identity: <BYTE ARRAY LEN=30>
+version: <BYTE ARRAY LEN=19>
+type: MESSAGE
+message_type: RESOLVER_RESPONSE
+socket_family: INET
+socket_protocol: UDP
+query_address: 172.31.9.234
+query_port: 37844
+query_time_sec: 1692031225
+query_time_nsec: 942424762
+response_address: 199.7.91.13
+response_port: 53
+response_time_sec: 1692031225
+response_time_nsec: 942424762
+query_zone: .
+response_message: [28 octets]
+;; ->>HEADER<<- opcode: QUERY, rcode: NOERROR, id: 20246
+;; flags: qr aa tc; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags: do; udp: 1450
+;; QUESTION SECTION:
+;. IN NS
+
+;; ANSWER SECTION:
+
+;; AUTHORITY SECTION:
+
+;; ADDITIONAL SECTION:
+---
+id: 20246
+qname: .
+qclass: IN (1)
+qtype: NS (2)
+rcode: NOERROR (0)
+
+[136] [TIMESTAMP REMOVED] [1:13 base dnstap] [00000000] [] [] 
+identity: <BYTE ARRAY LEN=30>
+version: <BYTE ARRAY LEN=19>
+type: MESSAGE
+message_type: RESOLVER_RESPONSE
+socket_family: INET
+socket_protocol: UDP
+query_address: 172.31.9.234
+query_port: 41487
+query_time_sec: 1692031225
+query_time_nsec: 902424567
+response_address: 199.7.91.13
+response_port: 53
+response_time_sec: 1692031225
+response_time_nsec: 942424762
+query_zone: .
+response_message: [28 octets]
+;; ->>HEADER<<- opcode: QUERY, rcode: NOERROR, id: 60922
+;; flags: qr aa tc; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags: do; udp: 1450
+;; QUESTION SECTION:
+;. IN DNSKEY
+
+;; ANSWER SECTION:
+
+;; AUTHORITY SECTION:
+
+;; ADDITIONAL SECTION:
+---
+id: 60922
+qname: .
+qclass: IN (1)
+qtype: DNSKEY (48)
+rcode: NOERROR (0)
+
+[137] [TIMESTAMP REMOVED] [1:13 base dnstap] [00000000] [] [] 
+identity: <BYTE ARRAY LEN=30>
+version: <BYTE ARRAY LEN=19>
+type: MESSAGE
+message_type: RESOLVER_QUERY
+socket_family: INET
+socket_protocol: TCP
+query_address: 172.31.9.234
+query_port: 39491
+query_time_sec: 1692031225
+query_time_nsec: 942424762
+query_message: [40 octets]
+;; ->>HEADER<<- opcode: QUERY, rcode: NOERROR, id: 11634
+;; flags:; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags: do; udp: 1232
+; OPT=10: 7e 11 95 cb 4f 3b 97 cc ("~...O;..")
+;; QUESTION SECTION:
+;. IN NS
+
+;; ANSWER SECTION:
+
+;; AUTHORITY SECTION:
+
+;; ADDITIONAL SECTION:
+---
+response_address: 199.7.91.13
+response_port: 53
+query_zone: .
+id: 11634
+qname: .
+qclass: IN (1)
+qtype: NS (2)
+rcode: NOERROR (0)
+
+[137] [TIMESTAMP REMOVED] [1:13 base dnstap] [00000000] [] [] 
+identity: <BYTE ARRAY LEN=30>
+version: <BYTE ARRAY LEN=19>
+type: MESSAGE
+message_type: RESOLVER_QUERY
+socket_family: INET
+socket_protocol: TCP
+query_address: 172.31.9.234
+query_port: 58843
+query_time_sec: 1692031225
+query_time_nsec: 942424762
+query_message: [40 octets]
+;; ->>HEADER<<- opcode: QUERY, rcode: NOERROR, id: 51488
+;; flags: cd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags: do; udp: 1232
+; OPT=10: 7e 11 95 cb 4f 3b 97 cc ("~...O;..")
+;; QUESTION SECTION:
+;. IN DNSKEY
+
+;; ANSWER SECTION:
+
+;; AUTHORITY SECTION:
+
+;; ADDITIONAL SECTION:
+---
+response_address: 199.7.91.13
+response_port: 53
+query_zone: .
+id: 51488
+qname: .
+qclass: IN (1)
+qtype: DNSKEY (48)
+rcode: NOERROR (0)
+
+[1207] [TIMESTAMP REMOVED] [1:13 base dnstap] [00000000] [] [] 
+identity: <BYTE ARRAY LEN=30>
+version: <BYTE ARRAY LEN=19>
+type: MESSAGE
+message_type: RESOLVER_RESPONSE
+socket_family: INET
+socket_protocol: TCP
+query_address: 172.31.9.234
+query_port: 39491
+query_time_sec: 1692031225
+query_time_nsec: 942424762
+response_address: 199.7.91.13
+response_port: 53
+response_time_sec: 1692031225
+response_time_nsec: 946424781
+query_zone: .
+response_message: [1097 octets]
+;; ->>HEADER<<- opcode: QUERY, rcode: NOERROR, id: 11634
+;; flags: qr aa; QUERY: 1, ANSWER: 14, AUTHORITY: 0, ADDITIONAL: 26
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags: do; udp: 1450
+;; QUESTION SECTION:
+;. IN NS
+
+;; ANSWER SECTION:
+. 518400 IN NS a.root-servers.net.
+. 518400 IN NS b.root-servers.net.
+. 518400 IN NS c.root-servers.net.
+. 518400 IN NS d.root-servers.net.
+. 518400 IN NS e.root-servers.net.
+. 518400 IN NS f.root-servers.net.
+. 518400 IN NS g.root-servers.net.
+. 518400 IN NS h.root-servers.net.
+. 518400 IN NS i.root-servers.net.
+. 518400 IN NS j.root-servers.net.
+. 518400 IN NS k.root-servers.net.
+. 518400 IN NS l.root-servers.net.
+. 518400 IN NS m.root-servers.net.
+. 518400 IN RRSIG NS 8 0 518400 1693112400 1691985600 11019 . CjtsZYHA4Llszfg8Y+PLTCL22Dne+NWvgpaHsZBLu1fGFD/JJhUfN58a0tB6M5Dq/OK3x127RkSBX1CsYCiEU7rB3DCkooRco9EUTNZHWghdgnJzF6o88R1LycUxX6/Ck0EDV4PTyIKTdusRHOJ1nR70Iut4+pl6WVtDjd2poNCjdy0BGhtHqSg7pqRzUqy1CBSZIHyhdB6krY5wSyY3PgMVcYJVlsgIgUWsVr96tCRJmCotD38tij0rGBOaMQAXk5nhHigP64vZSSrlg9UAErkKtcI6KXv3oyy4f3ZIYE24gSRNf5e//lkSvJc6UVI6dNbwYTyWNXZPuPLYUJU/Hg==
+
+;; AUTHORITY SECTION:
+
+;; ADDITIONAL SECTION:
+a.root-servers.net. 518400 IN A 198.41.0.4
+b.root-servers.net. 518400 IN A 199.9.14.201
+c.root-servers.net. 518400 IN A 192.33.4.12
+d.root-servers.net. 518400 IN A 199.7.91.13
+e.root-servers.net. 518400 IN A 192.203.230.10
+f.root-servers.net. 518400 IN A 192.5.5.241
+g.root-servers.net. 518400 IN A 192.112.36.4
+h.root-servers.net. 518400 IN A 198.97.190.53
+i.root-servers.net. 518400 IN A 192.36.148.17
+j.root-servers.net. 518400 IN A 192.58.128.30
+k.root-servers.net. 518400 IN A 193.0.14.129
+l.root-servers.net. 518400 IN A 199.7.83.42
+m.root-servers.net. 518400 IN A 202.12.27.33
+a.root-servers.net. 518400 IN AAAA 2001:503:ba3e::2:30
+b.root-servers.net. 518400 IN AAAA 2001:500:200::b
+c.root-servers.net. 518400 IN AAAA 2001:500:2::c
+d.root-servers.net. 518400 IN AAAA 2001:500:2d::d
+e.root-servers.net. 518400 IN AAAA 2001:500:a8::e
+f.root-servers.net. 518400 IN AAAA 2001:500:2f::f
+g.root-servers.net. 518400 IN AAAA 2001:500:12::d0d
+h.root-servers.net. 518400 IN AAAA 2001:500:1::53
+i.root-servers.net. 518400 IN AAAA 2001:7fe::53
+j.root-servers.net. 518400 IN AAAA 2001:503:c27::2:30
+k.root-servers.net. 518400 IN AAAA 2001:7fd::1
+l.root-servers.net. 518400 IN AAAA 2001:500:9f::42
+m.root-servers.net. 518400 IN AAAA 2001:dc3::35
+---
+id: 11634
+qname: .
+qclass: IN (1)
+qtype: NS (2)
+rcode: NOERROR (0)
+
+[974] [TIMESTAMP REMOVED] [1:13 base dnstap] [00000000] [] [] 
+identity: <BYTE ARRAY LEN=30>
+version: <BYTE ARRAY LEN=19>
+type: MESSAGE
+message_type: RESOLVER_RESPONSE
+socket_family: INET
+socket_protocol: TCP
+query_address: 172.31.9.234
+query_port: 58843
+query_time_sec: 1692031225
+query_time_nsec: 942424762
+response_address: 199.7.91.13
+response_port: 53
+response_time_sec: 1692031225
+response_time_nsec: 946424781
+query_zone: .
+response_message: [864 octets]
+;; ->>HEADER<<- opcode: QUERY, rcode: NOERROR, id: 51488
+;; flags: qr aa; QUERY: 1, ANSWER: 3, AUTHORITY: 0, ADDITIONAL: 0
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags: do; udp: 1450
+;; QUESTION SECTION:
+;. IN DNSKEY
+
+;; ANSWER SECTION:
+. 172800 IN DNSKEY 256 3 8 AwEAAcEtWatIO3exfN3A+WnZl7AVEBA3crRrrwKTfnmcdLt79C3DCOF1JX5zb4s84v0OxwlOVg+TR8VpkuYynMp3PQXLomLxe7j7PlxqEBo1LQaWfqyymCuF7rKebTLB5yZcr8/QUPwk/weLyguX6iVNDjIZOmeMqPkGJtDFp+EUfKgOa8AulKPLtsUL1W+1FT8sqroSxKXVXnhkEZN1O1zBxTG/z9xjwiPcd3//LSPUpEC9+rU2XIuCJq8nwAwJ7W6Rc49RxUT0Svc57HKqHjNuapvG0PCYh3bXCQzb7mb2pNwuerMFTzP5iEzXWZD7izLg9j3wEJ2Ia/WIEts/Tp9GIQM=
+. 172800 IN DNSKEY 257 3 8 AwEAAaz/tAm8yTn4Mfeh5eyI96WSVexTBAvkMgJzkKTOiW1vkIbzxeF3+/4RgWOq7HrxRixHlFlExOLAJr5emLvN7SWXgnLh4+B5xQlNVz8Og8kvArMtNROxVQuCaSnIDdD5LKyWbRd2n9WGe2R8PzgCmr3EgVLrjyBxWezF0jLHwVN8efS3rCj/EWgvIWgb9tarpVUDK/b58Da+sqqls3eNbuv7pr+eoZG+SrDK6nWeL3c6H5Apxz7LjVc1uTIdsIXxuOLYA4/ilBmSVIzuDWfdRUfhHdY6+cn8HFRm+2hM8AnXGXws9555KrUB5qihylGa8subX2Nn6UwNR1AkUTV74bU=
+. 172800 IN RRSIG DNSKEY 8 0 172800 1693440000 1691625600 20326 . Bi6nbFMJFE6hV05jpyLJNoZqG+cQFfARkPusc+1MRSCVk1Yp+MVyxr1Uz8K4yGqw2yv2tDJCejYX2fS7kJUf+oDh9s5/0p461VC3U0bytepjt514TkloWAywL5OCoe23PAL7KTXz2tquHeT07CBvNQxm2BnlWrg5u6RU2di4dwWbENfuMJXGwbtRpJ5DDBT2ylBgI644947qkgjHLVYuCwukSYxTd6oBzCJw+XGlJc1LbLcCM7vxu1Wweh/yFPUyYebkEnooNioJnc+fOqxSQaZxXyG5mOQgJFR7ta/Ci27Ao8fuOVDzEscPp3ISwb+h9Vb33gKiIXoWOvx3Zx0mkg==
+
+;; AUTHORITY SECTION:
+
+;; ADDITIONAL SECTION:
+---
+id: 51488
+qname: .
+qclass: IN (1)
+qtype: DNSKEY (48)
+rcode: NOERROR (0)
+
+[137] [TIMESTAMP REMOVED] [1:13 base dnstap] [00000000] [] [] 
+identity: <BYTE ARRAY LEN=30>
+version: <BYTE ARRAY LEN=19>
+type: MESSAGE
+message_type: RESOLVER_QUERY
+socket_family: INET
+socket_protocol: UDP
+query_address: 172.31.9.234
+query_port: 56394
+query_time_sec: 1692031225
+query_time_nsec: 946424781
+query_message: [40 octets]
+;; ->>HEADER<<- opcode: QUERY, rcode: NOERROR, id: 19749
+;; flags:; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags: do; udp: 512
+; OPT=10: 12 3a 1e 44 8c fc c6 b8 (".:.D....")
+;; QUESTION SECTION:
+;. IN DNSKEY
+
+;; ANSWER SECTION:
+
+;; AUTHORITY SECTION:
+
+;; ADDITIONAL SECTION:
+---
+response_address: 198.97.190.53
+response_port: 53
+query_zone: .
+id: 19749
+qname: .
+qclass: IN (1)
+qtype: DNSKEY (48)
+rcode: NOERROR (0)
+
+[136] [TIMESTAMP REMOVED] [1:13 base dnstap] [00000000] [] [] 
+identity: <BYTE ARRAY LEN=30>
+version: <BYTE ARRAY LEN=19>
+type: MESSAGE
+message_type: RESOLVER_RESPONSE
+socket_family: INET
+socket_protocol: UDP
+query_address: 172.31.9.234
+query_port: 56394
+query_time_sec: 1692031225
+query_time_nsec: 946424781
+response_address: 198.97.190.53
+response_port: 53
+response_time_sec: 1692031225
+response_time_nsec: 970424898
+query_zone: .
+response_message: [28 octets]
+;; ->>HEADER<<- opcode: QUERY, rcode: NOERROR, id: 19749
+;; flags: qr aa tc; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags: do; udp: 1232
+;; QUESTION SECTION:
+;. IN DNSKEY
+
+;; ANSWER SECTION:
+
+;; AUTHORITY SECTION:
+
+;; ADDITIONAL SECTION:
+---
+id: 19749
+qname: .
+qclass: IN (1)
+qtype: DNSKEY (48)
+rcode: NOERROR (0)
+
+[137] [TIMESTAMP REMOVED] [1:13 base dnstap] [00000000] [] [] 
+identity: <BYTE ARRAY LEN=30>
+version: <BYTE ARRAY LEN=19>
+type: MESSAGE
+message_type: RESOLVER_QUERY
+socket_family: INET
+socket_protocol: TCP
+query_address: 172.31.9.234
+query_port: 40353
+query_time_sec: 1692031225
+query_time_nsec: 970424898
+query_message: [40 octets]
+;; ->>HEADER<<- opcode: QUERY, rcode: NOERROR, id: 2414
+;; flags:; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags: do; udp: 1232
+; OPT=10: 12 3a 1e 44 8c fc c6 b8 (".:.D....")
+;; QUESTION SECTION:
+;. IN DNSKEY
+
+;; ANSWER SECTION:
+
+;; AUTHORITY SECTION:
+
+;; ADDITIONAL SECTION:
+---
+response_address: 198.97.190.53
+response_port: 53
+query_zone: .
+id: 2414
+qname: .
+qclass: IN (1)
+qtype: DNSKEY (48)
+rcode: NOERROR (0)
+
+[974] [TIMESTAMP REMOVED] [1:13 base dnstap] [00000000] [] [] 
+identity: <BYTE ARRAY LEN=30>
+version: <BYTE ARRAY LEN=19>
+type: MESSAGE
+message_type: RESOLVER_RESPONSE
+socket_family: INET
+socket_protocol: TCP
+query_address: 172.31.9.234
+query_port: 40353
+query_time_sec: 1692031225
+query_time_nsec: 970424898
+response_address: 198.97.190.53
+response_port: 53
+response_time_sec: 1692031226
+response_time_nsec: 22425150
+query_zone: .
+response_message: [864 octets]
+;; ->>HEADER<<- opcode: QUERY, rcode: NOERROR, id: 2414
+;; flags: qr aa; QUERY: 1, ANSWER: 3, AUTHORITY: 0, ADDITIONAL: 0
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags: do; udp: 1232
+;; QUESTION SECTION:
+;. IN DNSKEY
+
+;; ANSWER SECTION:
+. 172800 IN DNSKEY 256 3 8 AwEAAcEtWatIO3exfN3A+WnZl7AVEBA3crRrrwKTfnmcdLt79C3DCOF1JX5zb4s84v0OxwlOVg+TR8VpkuYynMp3PQXLomLxe7j7PlxqEBo1LQaWfqyymCuF7rKebTLB5yZcr8/QUPwk/weLyguX6iVNDjIZOmeMqPkGJtDFp+EUfKgOa8AulKPLtsUL1W+1FT8sqroSxKXVXnhkEZN1O1zBxTG/z9xjwiPcd3//LSPUpEC9+rU2XIuCJq8nwAwJ7W6Rc49RxUT0Svc57HKqHjNuapvG0PCYh3bXCQzb7mb2pNwuerMFTzP5iEzXWZD7izLg9j3wEJ2Ia/WIEts/Tp9GIQM=
+. 172800 IN DNSKEY 257 3 8 AwEAAaz/tAm8yTn4Mfeh5eyI96WSVexTBAvkMgJzkKTOiW1vkIbzxeF3+/4RgWOq7HrxRixHlFlExOLAJr5emLvN7SWXgnLh4+B5xQlNVz8Og8kvArMtNROxVQuCaSnIDdD5LKyWbRd2n9WGe2R8PzgCmr3EgVLrjyBxWezF0jLHwVN8efS3rCj/EWgvIWgb9tarpVUDK/b58Da+sqqls3eNbuv7pr+eoZG+SrDK6nWeL3c6H5Apxz7LjVc1uTIdsIXxuOLYA4/ilBmSVIzuDWfdRUfhHdY6+cn8HFRm+2hM8AnXGXws9555KrUB5qihylGa8subX2Nn6UwNR1AkUTV74bU=
+. 172800 IN RRSIG DNSKEY 8 0 172800 1693440000 1691625600 20326 . Bi6nbFMJFE6hV05jpyLJNoZqG+cQFfARkPusc+1MRSCVk1Yp+MVyxr1Uz8K4yGqw2yv2tDJCejYX2fS7kJUf+oDh9s5/0p461VC3U0bytepjt514TkloWAywL5OCoe23PAL7KTXz2tquHeT07CBvNQxm2BnlWrg5u6RU2di4dwWbENfuMJXGwbtRpJ5DDBT2ylBgI644947qkgjHLVYuCwukSYxTd6oBzCJw+XGlJc1LbLcCM7vxu1Wweh/yFPUyYebkEnooNioJnc+fOqxSQaZxXyG5mOQgJFR7ta/Ci27Ao8fuOVDzEscPp3ISwb+h9Vb33gKiIXoWOvx3Zx0mkg==
+
+;; AUTHORITY SECTION:
+
+;; ADDITIONAL SECTION:
+---
+id: 2414
+qname: .
+qclass: IN (1)
+qtype: DNSKEY (48)
+rcode: NOERROR (0)
+
+[142] [TIMESTAMP REMOVED] [1:13 base dnstap] [00000000] [] [] 
+identity: <BYTE ARRAY LEN=30>
+version: <BYTE ARRAY LEN=19>
+type: MESSAGE
+message_type: CLIENT_QUERY
+socket_family: INET
+socket_protocol: UDP
+query_address: 127.0.0.1
+query_port: 53427
+query_time_sec: 1692031253
+query_time_nsec: 706559687
+query_message: [47 octets]
+;; ->>HEADER<<- opcode: QUERY, rcode: NOERROR, id: 14879
+;; flags: rd ad; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+; OPT=10: 20 42 2b c8 6c 52 2c 63 (" B+.lR,c")
+;; QUESTION SECTION:
+;fsi.io. IN A
+
+;; ANSWER SECTION:
+
+;; AUTHORITY SECTION:
+
+;; ADDITIONAL SECTION:
+---
+response_address: 127.0.0.1
+response_port: 1972
+id: 14879
+qname: fsi.io.
+qclass: IN (1)
+qtype: A (1)
+rcode: NOERROR (0)
+
+[142] [TIMESTAMP REMOVED] [1:13 base dnstap] [00000000] [] [] 
+identity: <BYTE ARRAY LEN=30>
+version: <BYTE ARRAY LEN=19>
+type: MESSAGE
+message_type: RESOLVER_QUERY
+socket_family: INET
+socket_protocol: UDP
+query_address: 172.31.9.234
+query_port: 47279
+query_time_sec: 1692031253
+query_time_nsec: 706559687
+query_message: [45 octets]
+;; ->>HEADER<<- opcode: QUERY, rcode: NOERROR, id: 35842
+;; flags:; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags: do; udp: 512
+; OPT=10: 16 88 99 07 28 de ab a1 ("....(...")
+;; QUESTION SECTION:
+;_.io. IN A
+
+;; ANSWER SECTION:
+
+;; AUTHORITY SECTION:
+
+;; ADDITIONAL SECTION:
+---
+response_address: 199.7.83.42
+response_port: 53
+query_zone: .
+id: 35842
+qname: _.io.
+qclass: IN (1)
+qtype: A (1)
+rcode: NOERROR (0)
+
+[157] [TIMESTAMP REMOVED] [1:13 base dnstap] [00000000] [] [] 
+identity: <BYTE ARRAY LEN=30>
+version: <BYTE ARRAY LEN=19>
+type: MESSAGE
+message_type: RESOLVER_QUERY
+socket_family: INET
+socket_protocol: UDP
+query_address: 172.31.9.234
+query_port: 38061
+query_time_sec: 1692031253
+query_time_nsec: 758559938
+query_message: [60 octets]
+;; ->>HEADER<<- opcode: QUERY, rcode: NOERROR, id: 774
+;; flags: cd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags: do; udp: 1232
+; OPT=10: 16 88 99 07 28 de ab a1 ("....(...")
+;; QUESTION SECTION:
+;ns7.dnsmadeeasy.com. IN A
+
+;; ANSWER SECTION:
+
+;; AUTHORITY SECTION:
+
+;; ADDITIONAL SECTION:
+---
+response_address: 199.7.83.42
+response_port: 53
+query_zone: .
+id: 774
+qname: ns7.dnsmadeeasy.com.
+qclass: IN (1)
+qtype: A (1)
+rcode: NOERROR (0)
+
+[157] [TIMESTAMP REMOVED] [1:13 base dnstap] [00000000] [] [] 
+identity: <BYTE ARRAY LEN=30>
+version: <BYTE ARRAY LEN=19>
+type: MESSAGE
+message_type: RESOLVER_QUERY
+socket_family: INET
+socket_protocol: UDP
+query_address: 172.31.9.234
+query_port: 37423
+query_time_sec: 1692031253
+query_time_nsec: 758559938
+query_message: [60 octets]
+;; ->>HEADER<<- opcode: QUERY, rcode: NOERROR, id: 5091
+;; flags: cd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags: do; udp: 1232
+; OPT=10: 16 88 99 07 28 de ab a1 ("....(...")
+;; QUESTION SECTION:
+;ns5.dnsmadeeasy.com. IN A
+
+;; ANSWER SECTION:
+
+;; AUTHORITY SECTION:
+
+;; ADDITIONAL SECTION:
+---
+response_address: 199.7.83.42
+response_port: 53
+query_zone: .
+id: 5091
+qname: ns5.dnsmadeeasy.com.
+qclass: IN (1)
+qtype: A (1)
+rcode: NOERROR (0)
+
+[147] [TIMESTAMP REMOVED] [1:13 base dnstap] [00000000] [] [] 
+identity: <BYTE ARRAY LEN=30>
+version: <BYTE ARRAY LEN=19>
+type: MESSAGE
+message_type: RESOLVER_QUERY
+socket_family: INET
+socket_protocol: UDP
+query_address: 172.31.9.234
+query_port: 53333
+query_time_sec: 1692031253
+query_time_nsec: 706559687
+query_message: [47 octets]
+;; ->>HEADER<<- opcode: QUERY, rcode: NOERROR, id: 7115
+;; flags:; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags: do; udp: 512
+; OPT=10: 48 6d a4 65 3b d1 a2 e2 ("Hm.e;...")
+;; QUESTION SECTION:
+;fsi.io. IN A
+
+;; ANSWER SECTION:
+
+;; AUTHORITY SECTION:
+
+;; ADDITIONAL SECTION:
+---
+response_address: 65.22.162.17
+response_port: 53
+query_zone: io.
+id: 7115
+qname: fsi.io.
+qclass: IN (1)
+qtype: A (1)
+rcode: NOERROR (0)
+
+[614] [TIMESTAMP REMOVED] [1:13 base dnstap] [00000000] [] [] 
+identity: <BYTE ARRAY LEN=30>
+version: <BYTE ARRAY LEN=19>
+type: MESSAGE
+message_type: RESOLVER_RESPONSE
+socket_family: INET
+socket_protocol: UDP
+query_address: 172.31.9.234
+query_port: 47279
+query_time_sec: 1692031253
+query_time_nsec: 706559687
+response_address: 199.7.83.42
+response_port: 53
+response_time_sec: 1692031253
+response_time_nsec: 706559687
+query_zone: .
+response_message: [504 octets]
+;; ->>HEADER<<- opcode: QUERY, rcode: NOERROR, id: 35842
+;; flags: qr; QUERY: 1, ANSWER: 0, AUTHORITY: 6, ADDITIONAL: 4
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags: do; udp: 4096
+;; QUESTION SECTION:
+;_.io. IN A
+
+;; ANSWER SECTION:
+
+;; AUTHORITY SECTION:
+io. 172800 IN NS a0.nic.io.
+io. 172800 IN NS a2.nic.io.
+io. 172800 IN NS b0.nic.io.
+io. 172800 IN NS c0.nic.io.
+io. 86400 IN DS 57355 8 2 95A57C3BAB7849DBCDDF7C72ADA71A88146B141110318CA5BE672057E865C3E2
+io. 86400 IN RRSIG DS 8 1 86400 1693112400 1691985600 11019 . UGA+c3rUZeRKLqCxAd897DAYMG87uYJgapRf3DQ1slzsS+19ZwdlbR5kGx5Aki2+fsCNcM5UHnCLQ0ZjxP8vCY5zfS6W1rUsk7i60cSzu+lqVcsOeEyzPVF2GgNVgBwp1BFWnhrFx4kwsHkfSQPgMouGyZOsiqKt9FoP53+r7JC33hlDtg2YDp71bickBJLLxN9DCQ6b2EzaSC12wwZH+Qs8Um+2j08nHvWN9lPEjRoF3aHMkmU09agBoN7tX4GK8lhKrTIwTzHagJ7xeEANMR3qFD9EJedUabum+awfLEo0Ls//UWI07wAOB6v4/q0LzZDhNnliqX9gLX8f3BcOGQ==
+
+;; ADDITIONAL SECTION:
+a0.nic.io. 172800 IN A 65.22.160.17
+a2.nic.io. 172800 IN A 65.22.163.17
+b0.nic.io. 172800 IN A 65.22.161.17
+c0.nic.io. 172800 IN A 65.22.162.17
+---
+id: 35842
+qname: _.io.
+qclass: IN (1)
+qtype: A (1)
+rcode: NOERROR (0)
+
+[1289] [TIMESTAMP REMOVED] [1:13 base dnstap] [00000000] [] [] 
+identity: <BYTE ARRAY LEN=30>
+version: <BYTE ARRAY LEN=19>
+type: MESSAGE
+message_type: RESOLVER_RESPONSE
+socket_family: INET
+socket_protocol: UDP
+query_address: 172.31.9.234
+query_port: 38061
+query_time_sec: 1692031253
+query_time_nsec: 758559938
+response_address: 199.7.83.42
+response_port: 53
+response_time_sec: 1692031253
+response_time_nsec: 762559957
+query_zone: .
+response_message: [1179 octets]
+;; ->>HEADER<<- opcode: QUERY, rcode: NOERROR, id: 774
+;; flags: qr; QUERY: 1, ANSWER: 0, AUTHORITY: 15, ADDITIONAL: 26
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags: do; udp: 4096
+;; QUESTION SECTION:
+;ns7.dnsmadeeasy.com. IN A
+
+;; ANSWER SECTION:
+
+;; AUTHORITY SECTION:
+com. 172800 IN NS a.gtld-servers.net.
+com. 172800 IN NS b.gtld-servers.net.
+com. 172800 IN NS c.gtld-servers.net.
+com. 172800 IN NS d.gtld-servers.net.
+com. 172800 IN NS e.gtld-servers.net.
+com. 172800 IN NS f.gtld-servers.net.
+com. 172800 IN NS g.gtld-servers.net.
+com. 172800 IN NS h.gtld-servers.net.
+com. 172800 IN NS i.gtld-servers.net.
+com. 172800 IN NS j.gtld-servers.net.
+com. 172800 IN NS k.gtld-servers.net.
+com. 172800 IN NS l.gtld-servers.net.
+com. 172800 IN NS m.gtld-servers.net.
+com. 86400 IN DS 30909 8 2 E2D3C916F6DEEAC73294E8268FB5885044A833FC5459588F4A9184CFC41A5766
+com. 86400 IN RRSIG DS 8 1 86400 1693112400 1691985600 11019 . Aa5WFibNQiOLsQtPWZ2fUP+346APeSEsN8HV3vhXzEuKFfecmFeAMFxYh32J4YHfGn7kZ/wqauigVBUOuvWocrapHVYNrXrCfugcDU/+ouGbzooyWunVYoBYfJUf/gNRpQ9YGc6VA0gL1ftAQkmMQg3bjdz42Rfl/2o/MQWc1jqgDDp57ZWVDSupep+jlZ7TPxFkn29oewVcQ5xxuDWMLWAV73t34afE0PorouHKUxJVri5FH9zxOJcd6n9URph2fvBCL3Evx+nltU3qkSbw42cQ6a1l93S2r3yjaM0O8pEIzxFwZdQ1J1jqjN5q5a/btS65RDNNfgGt+DEXQR7kvw==
+
+;; ADDITIONAL SECTION:
+a.gtld-servers.net. 172800 IN A 192.5.6.30
+a.gtld-servers.net. 172800 IN AAAA 2001:503:a83e::2:30
+b.gtld-servers.net. 172800 IN A 192.33.14.30
+b.gtld-servers.net. 172800 IN AAAA 2001:503:231d::2:30
+c.gtld-servers.net. 172800 IN A 192.26.92.30
+c.gtld-servers.net. 172800 IN AAAA 2001:503:83eb::30
+d.gtld-servers.net. 172800 IN A 192.31.80.30
+d.gtld-servers.net. 172800 IN AAAA 2001:500:856e::30
+e.gtld-servers.net. 172800 IN A 192.12.94.30
+e.gtld-servers.net. 172800 IN AAAA 2001:502:1ca1::30
+f.gtld-servers.net. 172800 IN A 192.35.51.30
+f.gtld-servers.net. 172800 IN AAAA 2001:503:d414::30
+g.gtld-servers.net. 172800 IN A 192.42.93.30
+g.gtld-servers.net. 172800 IN AAAA 2001:503:eea3::30
+h.gtld-servers.net. 172800 IN A 192.54.112.30
+h.gtld-servers.net. 172800 IN AAAA 2001:502:8cc::30
+i.gtld-servers.net. 172800 IN A 192.43.172.30
+i.gtld-servers.net. 172800 IN AAAA 2001:503:39c1::30
+j.gtld-servers.net. 172800 IN A 192.48.79.30
+j.gtld-servers.net. 172800 IN AAAA 2001:502:7094::30
+k.gtld-servers.net. 172800 IN A 192.52.178.30
+k.gtld-servers.net. 172800 IN AAAA 2001:503:d2d::30
+l.gtld-servers.net. 172800 IN A 192.41.162.30
+l.gtld-servers.net. 172800 IN AAAA 2001:500:d937::30
+m.gtld-servers.net. 172800 IN A 192.55.83.30
+m.gtld-servers.net. 172800 IN AAAA 2001:501:b1f9::30
+---
+id: 774
+qname: ns7.dnsmadeeasy.com.
+qclass: IN (1)
+qtype: A (1)
+rcode: NOERROR (0)
+
+[157] [TIMESTAMP REMOVED] [1:13 base dnstap] [00000000] [] [] 
+identity: <BYTE ARRAY LEN=30>
+version: <BYTE ARRAY LEN=19>
+type: MESSAGE
+message_type: RESOLVER_QUERY
+socket_family: INET
+socket_protocol: UDP
+query_address: 172.31.9.234
+query_port: 40844
+query_time_sec: 1692031253
+query_time_nsec: 762559957
+query_message: [60 octets]
+;; ->>HEADER<<- opcode: QUERY, rcode: NOERROR, id: 63564
+;; flags: cd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags: do; udp: 1232
+; OPT=10: 16 88 99 07 28 de ab a1 ("....(...")
+;; QUESTION SECTION:
+;ns6.dnsmadeeasy.com. IN A
+
+;; ANSWER SECTION:
+
+;; AUTHORITY SECTION:
+
+;; ADDITIONAL SECTION:
+---
+response_address: 199.7.83.42
+response_port: 53
+query_zone: .
+id: 63564
+qname: ns6.dnsmadeeasy.com.
+qclass: IN (1)
+qtype: A (1)
+rcode: NOERROR (0)
+
+[146] [TIMESTAMP REMOVED] [1:13 base dnstap] [00000000] [] [] 
+identity: <BYTE ARRAY LEN=30>
+version: <BYTE ARRAY LEN=19>
+type: MESSAGE
+message_type: RESOLVER_RESPONSE
+socket_family: INET
+socket_protocol: UDP
+query_address: 172.31.9.234
+query_port: 53333
+query_time_sec: 1692031253
+query_time_nsec: 706559687
+response_address: 65.22.162.17
+response_port: 53
+response_time_sec: 1692031253
+response_time_nsec: 726559783
+query_zone: io.
+response_message: [35 octets]
+;; ->>HEADER<<- opcode: QUERY, rcode: NOERROR, id: 7115
+;; flags: qr tc; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags: do; udp: 1232
+;; QUESTION SECTION:
+;fsi.io. IN A
+
+;; ANSWER SECTION:
+
+;; AUTHORITY SECTION:
+
+;; ADDITIONAL SECTION:
+---
+id: 7115
+qname: fsi.io.
+qclass: IN (1)
+qtype: A (1)
+rcode: NOERROR (0)
+
+[161] [TIMESTAMP REMOVED] [1:13 base dnstap] [00000000] [] [] 
+identity: <BYTE ARRAY LEN=30>
+version: <BYTE ARRAY LEN=19>
+type: MESSAGE
+message_type: RESOLVER_QUERY
+socket_family: INET
+socket_protocol: UDP
+query_address: 172.31.9.234
+query_port: 40892
+query_time_sec: 1692031253
+query_time_nsec: 762559957
+query_message: [60 octets]
+;; ->>HEADER<<- opcode: QUERY, rcode: NOERROR, id: 22757
+;; flags: cd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags: do; udp: 512
+; OPT=10: 9d 06 fe 48 51 04 6e 5c ("...HQ.n\")
+;; QUESTION SECTION:
+;ns7.dnsmadeeasy.com. IN A
+
+;; ANSWER SECTION:
+
+;; AUTHORITY SECTION:
+
+;; ADDITIONAL SECTION:
+---
+response_address: 192.42.93.30
+response_port: 53
+query_zone: com.
+id: 22757
+qname: ns7.dnsmadeeasy.com.
+qclass: IN (1)
+qtype: A (1)
+rcode: NOERROR (0)
+
+[1289] [TIMESTAMP REMOVED] [1:13 base dnstap] [00000000] [] [] 
+identity: <BYTE ARRAY LEN=30>
+version: <BYTE ARRAY LEN=19>
+type: MESSAGE
+message_type: RESOLVER_RESPONSE
+socket_family: INET
+socket_protocol: UDP
+query_address: 172.31.9.234
+query_port: 40844
+query_time_sec: 1692031253
+query_time_nsec: 762559957
+response_address: 199.7.83.42
+response_port: 53
+response_time_sec: 1692031253
+response_time_nsec: 762559957
+query_zone: .
+response_message: [1179 octets]
+;; ->>HEADER<<- opcode: QUERY, rcode: NOERROR, id: 63564
+;; flags: qr; QUERY: 1, ANSWER: 0, AUTHORITY: 15, ADDITIONAL: 26
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags: do; udp: 4096
+;; QUESTION SECTION:
+;ns6.dnsmadeeasy.com. IN A
+
+;; ANSWER SECTION:
+
+;; AUTHORITY SECTION:
+com. 172800 IN NS a.gtld-servers.net.
+com. 172800 IN NS b.gtld-servers.net.
+com. 172800 IN NS c.gtld-servers.net.
+com. 172800 IN NS d.gtld-servers.net.
+com. 172800 IN NS e.gtld-servers.net.
+com. 172800 IN NS f.gtld-servers.net.
+com. 172800 IN NS g.gtld-servers.net.
+com. 172800 IN NS h.gtld-servers.net.
+com. 172800 IN NS i.gtld-servers.net.
+com. 172800 IN NS j.gtld-servers.net.
+com. 172800 IN NS k.gtld-servers.net.
+com. 172800 IN NS l.gtld-servers.net.
+com. 172800 IN NS m.gtld-servers.net.
+com. 86400 IN DS 30909 8 2 E2D3C916F6DEEAC73294E8268FB5885044A833FC5459588F4A9184CFC41A5766
+com. 86400 IN RRSIG DS 8 1 86400 1693112400 1691985600 11019 . Aa5WFibNQiOLsQtPWZ2fUP+346APeSEsN8HV3vhXzEuKFfecmFeAMFxYh32J4YHfGn7kZ/wqauigVBUOuvWocrapHVYNrXrCfugcDU/+ouGbzooyWunVYoBYfJUf/gNRpQ9YGc6VA0gL1ftAQkmMQg3bjdz42Rfl/2o/MQWc1jqgDDp57ZWVDSupep+jlZ7TPxFkn29oewVcQ5xxuDWMLWAV73t34afE0PorouHKUxJVri5FH9zxOJcd6n9URph2fvBCL3Evx+nltU3qkSbw42cQ6a1l93S2r3yjaM0O8pEIzxFwZdQ1J1jqjN5q5a/btS65RDNNfgGt+DEXQR7kvw==
+
+;; ADDITIONAL SECTION:
+a.gtld-servers.net. 172800 IN A 192.5.6.30
+b.gtld-servers.net. 172800 IN A 192.33.14.30
+c.gtld-servers.net. 172800 IN A 192.26.92.30
+d.gtld-servers.net. 172800 IN A 192.31.80.30
+e.gtld-servers.net. 172800 IN A 192.12.94.30
+f.gtld-servers.net. 172800 IN A 192.35.51.30
+g.gtld-servers.net. 172800 IN A 192.42.93.30
+h.gtld-servers.net. 172800 IN A 192.54.112.30
+i.gtld-servers.net. 172800 IN A 192.43.172.30
+j.gtld-servers.net. 172800 IN A 192.48.79.30
+k.gtld-servers.net. 172800 IN A 192.52.178.30
+l.gtld-servers.net. 172800 IN A 192.41.162.30
+m.gtld-servers.net. 172800 IN A 192.55.83.30
+a.gtld-servers.net. 172800 IN AAAA 2001:503:a83e::2:30
+b.gtld-servers.net. 172800 IN AAAA 2001:503:231d::2:30
+c.gtld-servers.net. 172800 IN AAAA 2001:503:83eb::30
+d.gtld-servers.net. 172800 IN AAAA 2001:500:856e::30
+e.gtld-servers.net. 172800 IN AAAA 2001:502:1ca1::30
+f.gtld-servers.net. 172800 IN AAAA 2001:503:d414::30
+g.gtld-servers.net. 172800 IN AAAA 2001:503:eea3::30
+h.gtld-servers.net. 172800 IN AAAA 2001:502:8cc::30
+i.gtld-servers.net. 172800 IN AAAA 2001:503:39c1::30
+j.gtld-servers.net. 172800 IN AAAA 2001:502:7094::30
+k.gtld-servers.net. 172800 IN AAAA 2001:503:d2d::30
+l.gtld-servers.net. 172800 IN AAAA 2001:500:d937::30
+m.gtld-servers.net. 172800 IN AAAA 2001:501:b1f9::30
+---
+id: 63564
+qname: ns6.dnsmadeeasy.com.
+qclass: IN (1)
+qtype: A (1)
+rcode: NOERROR (0)
+
+[147] [TIMESTAMP REMOVED] [1:13 base dnstap] [00000000] [] [] 
+identity: <BYTE ARRAY LEN=30>
+version: <BYTE ARRAY LEN=19>
+type: MESSAGE
+message_type: RESOLVER_QUERY
+socket_family: INET
+socket_protocol: TCP
+query_address: 172.31.9.234
+query_port: 39233
+query_time_sec: 1692031253
+query_time_nsec: 726559783
+query_message: [47 octets]
+;; ->>HEADER<<- opcode: QUERY, rcode: NOERROR, id: 22201
+;; flags:; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags: do; udp: 1232
+; OPT=10: 48 6d a4 65 3b d1 a2 e2 ("Hm.e;...")
+;; QUESTION SECTION:
+;fsi.io. IN A
+
+;; ANSWER SECTION:
+
+;; AUTHORITY SECTION:
+
+;; ADDITIONAL SECTION:
+---
+response_address: 65.22.162.17
+response_port: 53
+query_zone: io.
+id: 22201
+qname: fsi.io.
+qclass: IN (1)
+qtype: A (1)
+rcode: NOERROR (0)
+
+[624] [TIMESTAMP REMOVED] [1:13 base dnstap] [00000000] [] [] 
+identity: <BYTE ARRAY LEN=30>
+version: <BYTE ARRAY LEN=19>
+type: MESSAGE
+message_type: RESOLVER_RESPONSE
+socket_family: INET
+socket_protocol: UDP
+query_address: 172.31.9.234
+query_port: 40892
+query_time_sec: 1692031253
+query_time_nsec: 762559957
+response_address: 192.42.93.30
+response_port: 53
+response_time_sec: 1692031253
+response_time_nsec: 790560094
+query_zone: com.
+response_message: [510 octets]
+;; ->>HEADER<<- opcode: QUERY, rcode: NOERROR, id: 22757
+;; flags: qr tc cd; QUERY: 1, ANSWER: 0, AUTHORITY: 9, ADDITIONAL: 0
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags: do; udp: 4096
+;; QUESTION SECTION:
+;ns7.dnsmadeeasy.com. IN A
+
+;; ANSWER SECTION:
+
+;; AUTHORITY SECTION:
+dnsmadeeasy.com. 172800 IN NS ns1.dnsmadeeasy.com.
+dnsmadeeasy.com. 172800 IN NS ns4.dnsmadeeasy.com.
+dnsmadeeasy.com. 172800 IN NS ns3.dnsmadeeasy.com.
+dnsmadeeasy.com. 172800 IN NS ns0.dnsmadeeasy.com.
+dnsmadeeasy.com. 172800 IN NS ns2.dnsmadeeasy.com.
+dnsmadeeasy.com. 172800 IN NS ns8.dnsmadeeasy.com.
+CK0POJMG874LJREF7EFN8430QVIT8BSM.com. 86400 IN NSEC3 1 1 0 - CK0Q2D6NI4I7EQH8NA30NS61O48UL8G5 NS SOA RRSIG DNSKEY NSEC3PARAM
+CK0POJMG874LJREF7EFN8430QVIT8BSM.com. 86400 IN RRSIG NSEC3 8 2 86400 1692332702 1691723702 4459 com. KG+yVspRmO0/JGrTCsvMG67xksY64LooC4THQYNosrgymN7BHU6ZAX+Z7if3YLjdoCh0hzpofsJ0vgbIKrDKltFJXFSPCBNxcprDJIOKQkjO3LT8EPA4z/9r4CzrOUWuhYMPm+XjKJ0gkCeGo9PMiMXDhckAZjiZXCvm6XeUMw5KXT8I281wktXNoVAt8uigNPV53G6fuWfzYbISS1Wc6A==
+IMU45C6LHV3IV39F5CVVQI3SSMFLIIBA.com. 86400 IN NSEC3 1 1 0 - IMU4I4H0PNALL69F8DHGN1L1GARET4UA NS DS RRSIG
+
+;; ADDITIONAL SECTION:
+---
+id: 22757
+qname: ns7.dnsmadeeasy.com.
+qclass: IN (1)
+qtype: A (1)
+rcode: NOERROR (0)
+
+[161] [TIMESTAMP REMOVED] [1:13 base dnstap] [00000000] [] [] 
+identity: <BYTE ARRAY LEN=30>
+version: <BYTE ARRAY LEN=19>
+type: MESSAGE
+message_type: RESOLVER_QUERY
+socket_family: INET
+socket_protocol: UDP
+query_address: 172.31.9.234
+query_port: 38133
+query_time_sec: 1692031253
+query_time_nsec: 762559957
+query_message: [60 octets]
+;; ->>HEADER<<- opcode: QUERY, rcode: NOERROR, id: 20803
+;; flags: cd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags: do; udp: 512
+; OPT=10: 9d 06 fe 48 51 04 6e 5c ("...HQ.n\")
+;; QUESTION SECTION:
+;ns6.dnsmadeeasy.com. IN A
+
+;; ANSWER SECTION:
+
+;; AUTHORITY SECTION:
+
+;; ADDITIONAL SECTION:
+---
+response_address: 192.42.93.30
+response_port: 53
+query_zone: com.
+id: 20803
+qname: ns6.dnsmadeeasy.com.
+qclass: IN (1)
+qtype: A (1)
+rcode: NOERROR (0)
+
+[716] [TIMESTAMP REMOVED] [1:13 base dnstap] [00000000] [] [] 
+identity: <BYTE ARRAY LEN=30>
+version: <BYTE ARRAY LEN=19>
+type: MESSAGE
+message_type: RESOLVER_RESPONSE
+socket_family: INET
+socket_protocol: TCP
+query_address: 172.31.9.234
+query_port: 39233
+query_time_sec: 1692031253
+query_time_nsec: 726559783
+response_address: 65.22.162.17
+response_port: 53
+response_time_sec: 1692031253
+response_time_nsec: 758559938
+query_zone: io.
+response_message: [603 octets]
+;; ->>HEADER<<- opcode: QUERY, rcode: NOERROR, id: 22201
+;; flags: qr; QUERY: 1, ANSWER: 0, AUTHORITY: 7, ADDITIONAL: 0
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags: do; udp: 1232
+;; QUESTION SECTION:
+;fsi.io. IN A
+
+;; ANSWER SECTION:
+
+;; AUTHORITY SECTION:
+fsi.io. 3600 IN NS ns6.dnsmadeeasy.com.
+fsi.io. 3600 IN NS ns7.dnsmadeeasy.com.
+fsi.io. 3600 IN NS ns5.dnsmadeeasy.com.
+0d790076pp5pfktg2hrthj5bj6ckckcb.io. 3600 IN NSEC3 1 1 10 332539ee7f95c32a 0D7N522D3BFMA1LA01BUIOBUK6MROGMU NS SOA RRSIG DNSKEY NSEC3PARAM
+0d790076pp5pfktg2hrthj5bj6ckckcb.io. 3600 IN RRSIG NSEC3 8 2 3600 1693845035 1692027035 47703 io. Dr2vZ3R9chMt0pNfi4ZzZwdzexgXhrV3TG6rMB7a5eBmJCkP39Hw7bknySrcp1mQvJT/XTyuH0E0KfPXke5jAU4trjLW5TsSDaVmPmBaVADpBLIRY91RWnhv6ezxob/rtxwaW6WthwN5P0b919VIr9ZkaDZOwn5EcRDZv318NXc=
+4ik0ifks6qf0co8abchv1be42cpoglda.io. 3600 IN NSEC3 1 1 10 332539ee7f95c32a 4IL02QMKRC8419S0CO7FTT636P91GGTR NS DS RRSIG
+4ik0ifks6qf0co8abchv1be42cpoglda.io. 3600 IN RRSIG NSEC3 8 2 3600 1693357105 1691539105 47703 io. UzhY/3lc8eX6cQFX81vIUdSelY9t6uvwki1Y8PKGzyp3p19m1hM1YcpxsgpnoPLSOjk/zaYcMRV/NYxGRJOUVXFiQkrVvO0xEREje4Duq08jYr1uJ8noRcSwPXSSWwq8ErADrGBKRF2cqyiR6+Ow7sKAlVPf/bWLGeGHOG8yveA=
+
+;; ADDITIONAL SECTION:
+---
+id: 22201
+qname: fsi.io.
+qclass: IN (1)
+qtype: A (1)
+rcode: NOERROR (0)
+
+[161] [TIMESTAMP REMOVED] [1:13 base dnstap] [00000000] [] [] 
+identity: <BYTE ARRAY LEN=30>
+version: <BYTE ARRAY LEN=19>
+type: MESSAGE
+message_type: RESOLVER_QUERY
+socket_family: INET
+socket_protocol: TCP
+query_address: 172.31.9.234
+query_port: 53753
+query_time_sec: 1692031253
+query_time_nsec: 790560094
+query_message: [60 octets]
+;; ->>HEADER<<- opcode: QUERY, rcode: NOERROR, id: 12190
+;; flags: cd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags: do; udp: 1232
+; OPT=10: 9d 06 fe 48 51 04 6e 5c ("...HQ.n\")
+;; QUESTION SECTION:
+;ns7.dnsmadeeasy.com. IN A
+
+;; ANSWER SECTION:
+
+;; AUTHORITY SECTION:
+
+;; ADDITIONAL SECTION:
+---
+response_address: 192.42.93.30
+response_port: 53
+query_zone: com.
+id: 12190
+qname: ns7.dnsmadeeasy.com.
+qclass: IN (1)
+qtype: A (1)
+rcode: NOERROR (0)
+
+[1289] [TIMESTAMP REMOVED] [1:13 base dnstap] [00000000] [] [] 
+identity: <BYTE ARRAY LEN=30>
+version: <BYTE ARRAY LEN=19>
+type: MESSAGE
+message_type: RESOLVER_RESPONSE
+socket_family: INET
+socket_protocol: UDP
+query_address: 172.31.9.234
+query_port: 37423
+query_time_sec: 1692031253
+query_time_nsec: 758559938
+response_address: 199.7.83.42
+response_port: 53
+response_time_sec: 1692031253
+response_time_nsec: 762559957
+query_zone: .
+response_message: [1179 octets]
+;; ->>HEADER<<- opcode: QUERY, rcode: NOERROR, id: 5091
+;; flags: qr; QUERY: 1, ANSWER: 0, AUTHORITY: 15, ADDITIONAL: 26
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags: do; udp: 4096
+;; QUESTION SECTION:
+;ns5.dnsmadeeasy.com. IN A
+
+;; ANSWER SECTION:
+
+;; AUTHORITY SECTION:
+com. 172800 IN NS a.gtld-servers.net.
+com. 172800 IN NS b.gtld-servers.net.
+com. 172800 IN NS c.gtld-servers.net.
+com. 172800 IN NS d.gtld-servers.net.
+com. 172800 IN NS e.gtld-servers.net.
+com. 172800 IN NS f.gtld-servers.net.
+com. 172800 IN NS g.gtld-servers.net.
+com. 172800 IN NS h.gtld-servers.net.
+com. 172800 IN NS i.gtld-servers.net.
+com. 172800 IN NS j.gtld-servers.net.
+com. 172800 IN NS k.gtld-servers.net.
+com. 172800 IN NS l.gtld-servers.net.
+com. 172800 IN NS m.gtld-servers.net.
+com. 86400 IN DS 30909 8 2 E2D3C916F6DEEAC73294E8268FB5885044A833FC5459588F4A9184CFC41A5766
+com. 86400 IN RRSIG DS 8 1 86400 1693112400 1691985600 11019 . Aa5WFibNQiOLsQtPWZ2fUP+346APeSEsN8HV3vhXzEuKFfecmFeAMFxYh32J4YHfGn7kZ/wqauigVBUOuvWocrapHVYNrXrCfugcDU/+ouGbzooyWunVYoBYfJUf/gNRpQ9YGc6VA0gL1ftAQkmMQg3bjdz42Rfl/2o/MQWc1jqgDDp57ZWVDSupep+jlZ7TPxFkn29oewVcQ5xxuDWMLWAV73t34afE0PorouHKUxJVri5FH9zxOJcd6n9URph2fvBCL3Evx+nltU3qkSbw42cQ6a1l93S2r3yjaM0O8pEIzxFwZdQ1J1jqjN5q5a/btS65RDNNfgGt+DEXQR7kvw==
+
+;; ADDITIONAL SECTION:
+a.gtld-servers.net. 172800 IN A 192.5.6.30
+a.gtld-servers.net. 172800 IN AAAA 2001:503:a83e::2:30
+b.gtld-servers.net. 172800 IN A 192.33.14.30
+b.gtld-servers.net. 172800 IN AAAA 2001:503:231d::2:30
+c.gtld-servers.net. 172800 IN A 192.26.92.30
+c.gtld-servers.net. 172800 IN AAAA 2001:503:83eb::30
+d.gtld-servers.net. 172800 IN A 192.31.80.30
+d.gtld-servers.net. 172800 IN AAAA 2001:500:856e::30
+e.gtld-servers.net. 172800 IN A 192.12.94.30
+e.gtld-servers.net. 172800 IN AAAA 2001:502:1ca1::30
+f.gtld-servers.net. 172800 IN A 192.35.51.30
+f.gtld-servers.net. 172800 IN AAAA 2001:503:d414::30
+g.gtld-servers.net. 172800 IN A 192.42.93.30
+g.gtld-servers.net. 172800 IN AAAA 2001:503:eea3::30
+h.gtld-servers.net. 172800 IN A 192.54.112.30
+h.gtld-servers.net. 172800 IN AAAA 2001:502:8cc::30
+i.gtld-servers.net. 172800 IN A 192.43.172.30
+i.gtld-servers.net. 172800 IN AAAA 2001:503:39c1::30
+j.gtld-servers.net. 172800 IN A 192.48.79.30
+j.gtld-servers.net. 172800 IN AAAA 2001:502:7094::30
+k.gtld-servers.net. 172800 IN A 192.52.178.30
+k.gtld-servers.net. 172800 IN AAAA 2001:503:d2d::30
+l.gtld-servers.net. 172800 IN A 192.41.162.30
+l.gtld-servers.net. 172800 IN AAAA 2001:500:d937::30
+m.gtld-servers.net. 172800 IN A 192.55.83.30
+m.gtld-servers.net. 172800 IN AAAA 2001:501:b1f9::30
+---
+id: 5091
+qname: ns5.dnsmadeeasy.com.
+qclass: IN (1)
+qtype: A (1)
+rcode: NOERROR (0)
+
+[151] [TIMESTAMP REMOVED] [1:13 base dnstap] [00000000] [] [] 
+identity: <BYTE ARRAY LEN=30>
+version: <BYTE ARRAY LEN=19>
+type: MESSAGE
+message_type: RESOLVER_QUERY
+socket_family: INET
+socket_protocol: UDP
+query_address: 172.31.9.234
+query_port: 33070
+query_time_sec: 1692031253
+query_time_nsec: 838560327
+query_message: [47 octets]
+;; ->>HEADER<<- opcode: QUERY, rcode: NOERROR, id: 55512
+;; flags:; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags: do; udp: 512
+; OPT=10: d6 f3 9e 3a d3 cc 6c c7 ("...:..l.")
+;; QUESTION SECTION:
+;fsi.io. IN A
+
+;; ANSWER SECTION:
+
+;; AUTHORITY SECTION:
+
+;; ADDITIONAL SECTION:
+---
+response_address: 208.80.126.13
+response_port: 53
+query_zone: fsi.io.
+id: 55512
+qname: fsi.io.
+qclass: IN (1)
+qtype: A (1)
+rcode: NOERROR (0)
+
+[1083] [TIMESTAMP REMOVED] [1:13 base dnstap] [00000000] [] [] 
+identity: <BYTE ARRAY LEN=30>
+version: <BYTE ARRAY LEN=19>
+type: MESSAGE
+message_type: RESOLVER_RESPONSE
+socket_family: INET
+socket_protocol: TCP
+query_address: 172.31.9.234
+query_port: 53753
+query_time_sec: 1692031253
+query_time_nsec: 790560094
+response_address: 192.42.93.30
+response_port: 53
+response_time_sec: 1692031253
+response_time_nsec: 838560327
+query_zone: com.
+response_message: [969 octets]
+;; ->>HEADER<<- opcode: QUERY, rcode: NOERROR, id: 12190
+;; flags: qr cd; QUERY: 1, ANSWER: 0, AUTHORITY: 10, ADDITIONAL: 12
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags: do; udp: 4096
+;; QUESTION SECTION:
+;ns7.dnsmadeeasy.com. IN A
+
+;; ANSWER SECTION:
+
+;; AUTHORITY SECTION:
+dnsmadeeasy.com. 172800 IN NS ns1.dnsmadeeasy.com.
+dnsmadeeasy.com. 172800 IN NS ns4.dnsmadeeasy.com.
+dnsmadeeasy.com. 172800 IN NS ns3.dnsmadeeasy.com.
+dnsmadeeasy.com. 172800 IN NS ns0.dnsmadeeasy.com.
+dnsmadeeasy.com. 172800 IN NS ns2.dnsmadeeasy.com.
+dnsmadeeasy.com. 172800 IN NS ns8.dnsmadeeasy.com.
+CK0POJMG874LJREF7EFN8430QVIT8BSM.com. 86400 IN NSEC3 1 1 0 - CK0Q2D6NI4I7EQH8NA30NS61O48UL8G5 NS SOA RRSIG DNSKEY NSEC3PARAM
+CK0POJMG874LJREF7EFN8430QVIT8BSM.com. 86400 IN RRSIG NSEC3 8 2 86400 1692332702 1691723702 4459 com. KG+yVspRmO0/JGrTCsvMG67xksY64LooC4THQYNosrgymN7BHU6ZAX+Z7if3YLjdoCh0hzpofsJ0vgbIKrDKltFJXFSPCBNxcprDJIOKQkjO3LT8EPA4z/9r4CzrOUWuhYMPm+XjKJ0gkCeGo9PMiMXDhckAZjiZXCvm6XeUMw5KXT8I281wktXNoVAt8uigNPV53G6fuWfzYbISS1Wc6A==
+IMU45C6LHV3IV39F5CVVQI3SSMFLIIBA.com. 86400 IN NSEC3 1 1 0 - IMU4I4H0PNALL69F8DHGN1L1GARET4UA NS DS RRSIG
+IMU45C6LHV3IV39F5CVVQI3SSMFLIIBA.com. 86400 IN RRSIG NSEC3 8 2 86400 1692592444 1691983444 4459 com. N1kqAkQjYiDmK6HIHTiM3lWAx5+kDyrC9DboCi/JHILiw4viKimizTOtC85Y/kL3l+ir9hvjynEi2pMyHUN06nL03yCwKyMlKQ23ATKPvsJ/HDBZKtQkSXFERm4QtKCjh2E0FA3U/AElreKQXuJh5y4oDYpimWhwDxrIK29O0jk1BCfWqrteUfpojIVyNJA/6oPlsb+OdBC97oqaHxm/6w==
+
+;; ADDITIONAL SECTION:
+ns1.dnsmadeeasy.com. 172800 IN A 208.80.124.2
+ns1.dnsmadeeasy.com. 172800 IN AAAA 2600:1801:1::1
+ns4.dnsmadeeasy.com. 172800 IN A 208.80.127.2
+ns4.dnsmadeeasy.com. 172800 IN AAAA 2600:1802:4::1
+ns3.dnsmadeeasy.com. 172800 IN A 208.80.125.2
+ns3.dnsmadeeasy.com. 172800 IN AAAA 2600:1801:3::1
+ns0.dnsmadeeasy.com. 172800 IN A 208.94.148.2
+ns0.dnsmadeeasy.com. 172800 IN AAAA 2600:1800::1
+ns2.dnsmadeeasy.com. 172800 IN A 208.80.126.2
+ns2.dnsmadeeasy.com. 172800 IN AAAA 2600:1802:2::1
+ns8.dnsmadeeasy.com. 172800 IN A 208.94.149.2
+ns8.dnsmadeeasy.com. 172800 IN AAAA 2600:1800:8::1
+---
+id: 12190
+qname: ns7.dnsmadeeasy.com.
+qclass: IN (1)
+qtype: A (1)
+rcode: NOERROR (0)
+
+[161] [TIMESTAMP REMOVED] [1:13 base dnstap] [00000000] [] [] 
+identity: <BYTE ARRAY LEN=30>
+version: <BYTE ARRAY LEN=19>
+type: MESSAGE
+message_type: RESOLVER_QUERY
+socket_family: INET
+socket_protocol: UDP
+query_address: 172.31.9.234
+query_port: 50797
+query_time_sec: 1692031253
+query_time_nsec: 762559957
+query_message: [60 octets]
+;; ->>HEADER<<- opcode: QUERY, rcode: NOERROR, id: 36080
+;; flags: cd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags: do; udp: 512
+; OPT=10: 9d 06 fe 48 51 04 6e 5c ("...HQ.n\")
+;; QUESTION SECTION:
+;ns5.dnsmadeeasy.com. IN A
+
+;; ANSWER SECTION:
+
+;; AUTHORITY SECTION:
+
+;; ADDITIONAL SECTION:
+---
+response_address: 192.42.93.30
+response_port: 53
+query_zone: com.
+id: 36080
+qname: ns5.dnsmadeeasy.com.
+qclass: IN (1)
+qtype: A (1)
+rcode: NOERROR (0)
+
+[334] [TIMESTAMP REMOVED] [1:13 base dnstap] [00000000] [] [] 
+identity: <BYTE ARRAY LEN=30>
+version: <BYTE ARRAY LEN=19>
+type: MESSAGE
+message_type: RESOLVER_RESPONSE
+socket_family: INET
+socket_protocol: UDP
+query_address: 172.31.9.234
+query_port: 33070
+query_time_sec: 1692031253
+query_time_nsec: 838560327
+response_address: 208.80.126.13
+response_port: 53
+response_time_sec: 1692031253
+response_time_nsec: 838560327
+query_zone: fsi.io.
+response_message: [217 octets]
+;; ->>HEADER<<- opcode: QUERY, rcode: NOERROR, id: 55512
+;; flags: qr aa; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 0
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags: do; udp: 1280
+;; QUESTION SECTION:
+;fsi.io. IN A
+
+;; ANSWER SECTION:
+fsi.io. 3600 IN A 104.244.14.13
+fsi.io. 3600 IN RRSIG A 5 2 3600 1693247174 1690652675 1872 fsi.io. zMQ2xDW7wzsqA119HkbRj9UrisGiXWOewfa6YKhcOBpPP2fqH9DNlKDHadgjGwkEFJ0tHzzB4W+KgxAr+FsSI9v6OylXSlzBCAGyDiwPKnJBUrmS3yinDN9eP6byptdyi72bMnDtvHhhR7bOd/D2sdLFZowfSKXHb0hTGpqMGew=
+
+;; AUTHORITY SECTION:
+
+;; ADDITIONAL SECTION:
+---
+id: 55512
+qname: fsi.io.
+qclass: IN (1)
+qtype: A (1)
+rcode: NOERROR (0)
+
+[173] [TIMESTAMP REMOVED] [1:13 base dnstap] [00000000] [] [] 
+identity: <BYTE ARRAY LEN=30>
+version: <BYTE ARRAY LEN=19>
+type: MESSAGE
+message_type: RESOLVER_QUERY
+socket_family: INET
+socket_protocol: UDP
+query_address: 172.31.9.234
+query_port: 47855
+query_time_sec: 1692031253
+query_time_nsec: 838560327
+query_message: [60 octets]
+;; ->>HEADER<<- opcode: QUERY, rcode: NOERROR, id: 32785
+;; flags: cd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags: do; udp: 512
+; OPT=10: db 71 1f 68 f3 27 f9 0d (".q.h.'..")
+;; QUESTION SECTION:
+;ns7.dnsmadeeasy.com. IN A
+
+;; ANSWER SECTION:
+
+;; AUTHORITY SECTION:
+
+;; ADDITIONAL SECTION:
+---
+response_address: 208.94.148.2
+response_port: 53
+query_zone: dnsmadeeasy.com.
+id: 32785
+qname: ns7.dnsmadeeasy.com.
+qclass: IN (1)
+qtype: A (1)
+rcode: NOERROR (0)
+
+[624] [TIMESTAMP REMOVED] [1:13 base dnstap] [00000000] [] [] 
+identity: <BYTE ARRAY LEN=30>
+version: <BYTE ARRAY LEN=19>
+type: MESSAGE
+message_type: RESOLVER_RESPONSE
+socket_family: INET
+socket_protocol: UDP
+query_address: 172.31.9.234
+query_port: 38133
+query_time_sec: 1692031253
+query_time_nsec: 762559957
+response_address: 192.42.93.30
+response_port: 53
+response_time_sec: 1692031253
+response_time_nsec: 786560074
+query_zone: com.
+response_message: [510 octets]
+;; ->>HEADER<<- opcode: QUERY, rcode: NOERROR, id: 20803
+;; flags: qr tc cd; QUERY: 1, ANSWER: 0, AUTHORITY: 9, ADDITIONAL: 0
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags: do; udp: 4096
+;; QUESTION SECTION:
+;ns6.dnsmadeeasy.com. IN A
+
+;; ANSWER SECTION:
+
+;; AUTHORITY SECTION:
+dnsmadeeasy.com. 172800 IN NS ns1.dnsmadeeasy.com.
+dnsmadeeasy.com. 172800 IN NS ns4.dnsmadeeasy.com.
+dnsmadeeasy.com. 172800 IN NS ns3.dnsmadeeasy.com.
+dnsmadeeasy.com. 172800 IN NS ns0.dnsmadeeasy.com.
+dnsmadeeasy.com. 172800 IN NS ns2.dnsmadeeasy.com.
+dnsmadeeasy.com. 172800 IN NS ns8.dnsmadeeasy.com.
+CK0POJMG874LJREF7EFN8430QVIT8BSM.com. 86400 IN NSEC3 1 1 0 - CK0Q2D6NI4I7EQH8NA30NS61O48UL8G5 NS SOA RRSIG DNSKEY NSEC3PARAM
+CK0POJMG874LJREF7EFN8430QVIT8BSM.com. 86400 IN RRSIG NSEC3 8 2 86400 1692332702 1691723702 4459 com. KG+yVspRmO0/JGrTCsvMG67xksY64LooC4THQYNosrgymN7BHU6ZAX+Z7if3YLjdoCh0hzpofsJ0vgbIKrDKltFJXFSPCBNxcprDJIOKQkjO3LT8EPA4z/9r4CzrOUWuhYMPm+XjKJ0gkCeGo9PMiMXDhckAZjiZXCvm6XeUMw5KXT8I281wktXNoVAt8uigNPV53G6fuWfzYbISS1Wc6A==
+IMU45C6LHV3IV39F5CVVQI3SSMFLIIBA.com. 86400 IN NSEC3 1 1 0 - IMU4I4H0PNALL69F8DHGN1L1GARET4UA NS DS RRSIG
+
+;; ADDITIONAL SECTION:
+---
+id: 20803
+qname: ns6.dnsmadeeasy.com.
+qclass: IN (1)
+qtype: A (1)
+rcode: NOERROR (0)
+
+[151] [TIMESTAMP REMOVED] [1:13 base dnstap] [00000000] [] [] 
+identity: <BYTE ARRAY LEN=30>
+version: <BYTE ARRAY LEN=19>
+type: MESSAGE
+message_type: RESOLVER_QUERY
+socket_family: INET
+socket_protocol: UDP
+query_address: 172.31.9.234
+query_port: 59290
+query_time_sec: 1692031253
+query_time_nsec: 838560327
+query_message: [47 octets]
+;; ->>HEADER<<- opcode: QUERY, rcode: NOERROR, id: 61211
+;; flags:; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags: do; udp: 1232
+; OPT=10: d6 f3 9e 3a d3 cc 6c c7 ("...:..l.")
+;; QUESTION SECTION:
+;fsi.io. IN DNSKEY
+
+;; ANSWER SECTION:
+
+;; AUTHORITY SECTION:
+
+;; ADDITIONAL SECTION:
+---
+response_address: 208.80.126.13
+response_port: 53
+query_zone: fsi.io.
+id: 61211
+qname: fsi.io.
+qclass: IN (1)
+qtype: DNSKEY (48)
+rcode: NOERROR (0)
+
+[189] [TIMESTAMP REMOVED] [1:13 base dnstap] [00000000] [] [] 
+identity: <BYTE ARRAY LEN=30>
+version: <BYTE ARRAY LEN=19>
+type: MESSAGE
+message_type: RESOLVER_RESPONSE
+socket_family: INET
+socket_protocol: UDP
+query_address: 172.31.9.234
+query_port: 47855
+query_time_sec: 1692031253
+query_time_nsec: 838560327
+response_address: 208.94.148.2
+response_port: 53
+response_time_sec: 1692031253
+response_time_nsec: 838560327
+query_zone: dnsmadeeasy.com.
+response_message: [64 octets]
+;; ->>HEADER<<- opcode: QUERY, rcode: NOERROR, id: 32785
+;; flags: qr aa cd; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags: do; udp: 1280
+;; QUESTION SECTION:
+;ns7.dnsmadeeasy.com. IN A
+
+;; ANSWER SECTION:
+ns7.dnsmadeeasy.com. 86400 IN A 208.80.126.13
+
+;; AUTHORITY SECTION:
+
+;; ADDITIONAL SECTION:
+---
+id: 32785
+qname: ns7.dnsmadeeasy.com.
+qclass: IN (1)
+qtype: A (1)
+rcode: NOERROR (0)
+
+[624] [TIMESTAMP REMOVED] [1:13 base dnstap] [00000000] [] [] 
+identity: <BYTE ARRAY LEN=30>
+version: <BYTE ARRAY LEN=19>
+type: MESSAGE
+message_type: RESOLVER_RESPONSE
+socket_family: INET
+socket_protocol: UDP
+query_address: 172.31.9.234
+query_port: 50797
+query_time_sec: 1692031253
+query_time_nsec: 762559957
+response_address: 192.42.93.30
+response_port: 53
+response_time_sec: 1692031253
+response_time_nsec: 790560094
+query_zone: com.
+response_message: [510 octets]
+;; ->>HEADER<<- opcode: QUERY, rcode: NOERROR, id: 36080
+;; flags: qr tc cd; QUERY: 1, ANSWER: 0, AUTHORITY: 9, ADDITIONAL: 0
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags: do; udp: 4096
+;; QUESTION SECTION:
+;ns5.dnsmadeeasy.com. IN A
+
+;; ANSWER SECTION:
+
+;; AUTHORITY SECTION:
+dnsmadeeasy.com. 172800 IN NS ns1.dnsmadeeasy.com.
+dnsmadeeasy.com. 172800 IN NS ns4.dnsmadeeasy.com.
+dnsmadeeasy.com. 172800 IN NS ns3.dnsmadeeasy.com.
+dnsmadeeasy.com. 172800 IN NS ns0.dnsmadeeasy.com.
+dnsmadeeasy.com. 172800 IN NS ns2.dnsmadeeasy.com.
+dnsmadeeasy.com. 172800 IN NS ns8.dnsmadeeasy.com.
+CK0POJMG874LJREF7EFN8430QVIT8BSM.com. 86400 IN NSEC3 1 1 0 - CK0Q2D6NI4I7EQH8NA30NS61O48UL8G5 NS SOA RRSIG DNSKEY NSEC3PARAM
+CK0POJMG874LJREF7EFN8430QVIT8BSM.com. 86400 IN RRSIG NSEC3 8 2 86400 1692332702 1691723702 4459 com. KG+yVspRmO0/JGrTCsvMG67xksY64LooC4THQYNosrgymN7BHU6ZAX+Z7if3YLjdoCh0hzpofsJ0vgbIKrDKltFJXFSPCBNxcprDJIOKQkjO3LT8EPA4z/9r4CzrOUWuhYMPm+XjKJ0gkCeGo9PMiMXDhckAZjiZXCvm6XeUMw5KXT8I281wktXNoVAt8uigNPV53G6fuWfzYbISS1Wc6A==
+IMU45C6LHV3IV39F5CVVQI3SSMFLIIBA.com. 86400 IN NSEC3 1 1 0 - IMU4I4H0PNALL69F8DHGN1L1GARET4UA NS DS RRSIG
+
+;; ADDITIONAL SECTION:
+---
+id: 36080
+qname: ns5.dnsmadeeasy.com.
+qclass: IN (1)
+qtype: A (1)
+rcode: NOERROR (0)
+
+[780] [TIMESTAMP REMOVED] [1:13 base dnstap] [00000000] [] [] 
+identity: <BYTE ARRAY LEN=30>
+version: <BYTE ARRAY LEN=19>
+type: MESSAGE
+message_type: RESOLVER_RESPONSE
+socket_family: INET
+socket_protocol: UDP
+query_address: 172.31.9.234
+query_port: 59290
+query_time_sec: 1692031253
+query_time_nsec: 838560327
+response_address: 208.80.126.13
+response_port: 53
+response_time_sec: 1692031253
+response_time_nsec: 842560346
+query_zone: fsi.io.
+response_message: [663 octets]
+;; ->>HEADER<<- opcode: QUERY, rcode: NOERROR, id: 61211
+;; flags: qr aa; QUERY: 1, ANSWER: 4, AUTHORITY: 0, ADDITIONAL: 0
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags: do; udp: 1280
+;; QUESTION SECTION:
+;fsi.io. IN DNSKEY
+
+;; ANSWER SECTION:
+fsi.io. 3600 IN DNSKEY 256 3 5 AwEAAfBsDZ26msHXmxIEPk3I3NGtsZ+J4PcuQgygE3lzXgVSLRMpYLWdcJB4R6pF7Vb6S7ztcQBxWDIHAuG7oP/vHmThTjQ3gYPdg+5O59lRNneDI2wSxoNNgFv0m0lq85HBdQaCzndHTjZvjFgyAEMGeqyBLizlt8infnBQ4A9nwr0T
+fsi.io. 3600 IN DNSKEY 257 3 5 AwEAAacBtd89MLTfrE4fybo14gvePkHMYKb+WMQJs8tXqtgsr+WzvaH80xcVbkjviutpuiKKyCfseypyHuvKgkFral5rTsoLG+Uajg5/Pq6V1eFA/s1GY2Ao7hoi/vU+wRZp1dV32F2wSGRxtg4rJYTJu6PMTKBTgbErh3u/RLaM1sH9
+fsi.io. 3600 IN RRSIG DNSKEY 5 2 3600 1694205030 1691611291 1872 fsi.io. YuNhG5gMSbi69LmpG48ZOCBygSNinwQ3hrWUDVgnaM08AKDCZ+EsiYAX4UGTNzBzhXrLv7ynpRVu31YA737YLGqQc7YjgBQkCO/R+m6KuXmECMDDRE8rWnsU2s3CLF2uKgJzjobTXyloMXK7O38vTakTPKaglS6PegjsGhISfg0=
+fsi.io. 3600 IN RRSIG DNSKEY 5 2 3600 1694205030 1691611291 48031 fsi.io. cviU/HUo2dcYNpNDHDJnUoEhNbCDzIERIdtHy7e8I7oAlKVJH7IGfDJPYiC2bMLieemdPGvUvFnqQmbrmEmywdj25+C2hJtBwvMYdOhUO16/7lHoe95xF18A+DQ9O+lyLiznS7bju0x84a4bIhcP6VAd7Mh0NchXPAa13JgzrYY=
+
+;; AUTHORITY SECTION:
+
+;; ADDITIONAL SECTION:
+---
+id: 61211
+qname: fsi.io.
+qclass: IN (1)
+qtype: DNSKEY (48)
+rcode: NOERROR (0)
+
+[161] [TIMESTAMP REMOVED] [1:13 base dnstap] [00000000] [] [] 
+identity: <BYTE ARRAY LEN=30>
+version: <BYTE ARRAY LEN=19>
+type: MESSAGE
+message_type: RESOLVER_QUERY
+socket_family: INET
+socket_protocol: TCP
+query_address: 172.31.9.234
+query_port: 56637
+query_time_sec: 1692031253
+query_time_nsec: 786560074
+query_message: [60 octets]
+;; ->>HEADER<<- opcode: QUERY, rcode: NOERROR, id: 7825
+;; flags: cd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags: do; udp: 1232
+; OPT=10: 9d 06 fe 48 51 04 6e 5c ("...HQ.n\")
+;; QUESTION SECTION:
+;ns6.dnsmadeeasy.com. IN A
+
+;; ANSWER SECTION:
+
+;; AUTHORITY SECTION:
+
+;; ADDITIONAL SECTION:
+---
+response_address: 192.42.93.30
+response_port: 53
+query_zone: com.
+id: 7825
+qname: ns6.dnsmadeeasy.com.
+qclass: IN (1)
+qtype: A (1)
+rcode: NOERROR (0)
+
+[147] [TIMESTAMP REMOVED] [1:13 base dnstap] [00000000] [] [] 
+identity: <BYTE ARRAY LEN=30>
+version: <BYTE ARRAY LEN=19>
+type: MESSAGE
+message_type: RESOLVER_QUERY
+socket_family: INET
+socket_protocol: UDP
+query_address: 172.31.9.234
+query_port: 49242
+query_time_sec: 1692031253
+query_time_nsec: 842560346
+query_message: [47 octets]
+;; ->>HEADER<<- opcode: QUERY, rcode: NOERROR, id: 42627
+;; flags:; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags: do; udp: 512
+; OPT=10: e8 43 e7 4f 9b 6c 15 78 (".C.O.l.x")
+;; QUESTION SECTION:
+;fsi.io. IN DS
+
+;; ANSWER SECTION:
+
+;; AUTHORITY SECTION:
+
+;; ADDITIONAL SECTION:
+---
+response_address: 65.22.160.17
+response_port: 53
+query_zone: io.
+id: 42627
+qname: fsi.io.
+qclass: IN (1)
+qtype: DS (43)
+rcode: NOERROR (0)
+
+[161] [TIMESTAMP REMOVED] [1:13 base dnstap] [00000000] [] [] 
+identity: <BYTE ARRAY LEN=30>
+version: <BYTE ARRAY LEN=19>
+type: MESSAGE
+message_type: RESOLVER_QUERY
+socket_family: INET
+socket_protocol: TCP
+query_address: 172.31.9.234
+query_port: 33349
+query_time_sec: 1692031253
+query_time_nsec: 790560094
+query_message: [60 octets]
+;; ->>HEADER<<- opcode: QUERY, rcode: NOERROR, id: 51643
+;; flags: cd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags: do; udp: 1232
+; OPT=10: 9d 06 fe 48 51 04 6e 5c ("...HQ.n\")
+;; QUESTION SECTION:
+;ns5.dnsmadeeasy.com. IN A
+
+;; ANSWER SECTION:
+
+;; AUTHORITY SECTION:
+
+;; ADDITIONAL SECTION:
+---
+response_address: 192.42.93.30
+response_port: 53
+query_zone: com.
+id: 51643
+qname: ns5.dnsmadeeasy.com.
+qclass: IN (1)
+qtype: A (1)
+rcode: NOERROR (0)
+
+[1083] [TIMESTAMP REMOVED] [1:13 base dnstap] [00000000] [] [] 
+identity: <BYTE ARRAY LEN=30>
+version: <BYTE ARRAY LEN=19>
+type: MESSAGE
+message_type: RESOLVER_RESPONSE
+socket_family: INET
+socket_protocol: TCP
+query_address: 172.31.9.234
+query_port: 56637
+query_time_sec: 1692031253
+query_time_nsec: 786560074
+response_address: 192.42.93.30
+response_port: 53
+response_time_sec: 1692031253
+response_time_nsec: 838560327
+query_zone: com.
+response_message: [969 octets]
+;; ->>HEADER<<- opcode: QUERY, rcode: NOERROR, id: 7825
+;; flags: qr cd; QUERY: 1, ANSWER: 0, AUTHORITY: 10, ADDITIONAL: 12
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags: do; udp: 4096
+;; QUESTION SECTION:
+;ns6.dnsmadeeasy.com. IN A
+
+;; ANSWER SECTION:
+
+;; AUTHORITY SECTION:
+dnsmadeeasy.com. 172800 IN NS ns1.dnsmadeeasy.com.
+dnsmadeeasy.com. 172800 IN NS ns4.dnsmadeeasy.com.
+dnsmadeeasy.com. 172800 IN NS ns3.dnsmadeeasy.com.
+dnsmadeeasy.com. 172800 IN NS ns0.dnsmadeeasy.com.
+dnsmadeeasy.com. 172800 IN NS ns2.dnsmadeeasy.com.
+dnsmadeeasy.com. 172800 IN NS ns8.dnsmadeeasy.com.
+CK0POJMG874LJREF7EFN8430QVIT8BSM.com. 86400 IN NSEC3 1 1 0 - CK0Q2D6NI4I7EQH8NA30NS61O48UL8G5 NS SOA RRSIG DNSKEY NSEC3PARAM
+CK0POJMG874LJREF7EFN8430QVIT8BSM.com. 86400 IN RRSIG NSEC3 8 2 86400 1692332702 1691723702 4459 com. KG+yVspRmO0/JGrTCsvMG67xksY64LooC4THQYNosrgymN7BHU6ZAX+Z7if3YLjdoCh0hzpofsJ0vgbIKrDKltFJXFSPCBNxcprDJIOKQkjO3LT8EPA4z/9r4CzrOUWuhYMPm+XjKJ0gkCeGo9PMiMXDhckAZjiZXCvm6XeUMw5KXT8I281wktXNoVAt8uigNPV53G6fuWfzYbISS1Wc6A==
+IMU45C6LHV3IV39F5CVVQI3SSMFLIIBA.com. 86400 IN NSEC3 1 1 0 - IMU4I4H0PNALL69F8DHGN1L1GARET4UA NS DS RRSIG
+IMU45C6LHV3IV39F5CVVQI3SSMFLIIBA.com. 86400 IN RRSIG NSEC3 8 2 86400 1692592444 1691983444 4459 com. N1kqAkQjYiDmK6HIHTiM3lWAx5+kDyrC9DboCi/JHILiw4viKimizTOtC85Y/kL3l+ir9hvjynEi2pMyHUN06nL03yCwKyMlKQ23ATKPvsJ/HDBZKtQkSXFERm4QtKCjh2E0FA3U/AElreKQXuJh5y4oDYpimWhwDxrIK29O0jk1BCfWqrteUfpojIVyNJA/6oPlsb+OdBC97oqaHxm/6w==
+
+;; ADDITIONAL SECTION:
+ns1.dnsmadeeasy.com. 172800 IN A 208.80.124.2
+ns1.dnsmadeeasy.com. 172800 IN AAAA 2600:1801:1::1
+ns4.dnsmadeeasy.com. 172800 IN A 208.80.127.2
+ns4.dnsmadeeasy.com. 172800 IN AAAA 2600:1802:4::1
+ns3.dnsmadeeasy.com. 172800 IN A 208.80.125.2
+ns3.dnsmadeeasy.com. 172800 IN AAAA 2600:1801:3::1
+ns0.dnsmadeeasy.com. 172800 IN A 208.94.148.2
+ns0.dnsmadeeasy.com. 172800 IN AAAA 2600:1800::1
+ns2.dnsmadeeasy.com. 172800 IN A 208.80.126.2
+ns2.dnsmadeeasy.com. 172800 IN AAAA 2600:1802:2::1
+ns8.dnsmadeeasy.com. 172800 IN A 208.94.149.2
+ns8.dnsmadeeasy.com. 172800 IN AAAA 2600:1800:8::1
+---
+id: 7825
+qname: ns6.dnsmadeeasy.com.
+qclass: IN (1)
+qtype: A (1)
+rcode: NOERROR (0)
+
+[173] [TIMESTAMP REMOVED] [1:13 base dnstap] [00000000] [] [] 
+identity: <BYTE ARRAY LEN=30>
+version: <BYTE ARRAY LEN=19>
+type: MESSAGE
+message_type: RESOLVER_QUERY
+socket_family: INET
+socket_protocol: UDP
+query_address: 172.31.9.234
+query_port: 58831
+query_time_sec: 1692031253
+query_time_nsec: 838560327
+query_message: [60 octets]
+;; ->>HEADER<<- opcode: QUERY, rcode: NOERROR, id: 6962
+;; flags: cd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags: do; udp: 1232
+; OPT=10: db 71 1f 68 f3 27 f9 0d (".q.h.'..")
+;; QUESTION SECTION:
+;ns6.dnsmadeeasy.com. IN A
+
+;; ANSWER SECTION:
+
+;; AUTHORITY SECTION:
+
+;; ADDITIONAL SECTION:
+---
+response_address: 208.94.148.2
+response_port: 53
+query_zone: dnsmadeeasy.com.
+id: 6962
+qname: ns6.dnsmadeeasy.com.
+qclass: IN (1)
+qtype: A (1)
+rcode: NOERROR (0)
+
+[189] [TIMESTAMP REMOVED] [1:13 base dnstap] [00000000] [] [] 
+identity: <BYTE ARRAY LEN=30>
+version: <BYTE ARRAY LEN=19>
+type: MESSAGE
+message_type: RESOLVER_RESPONSE
+socket_family: INET
+socket_protocol: UDP
+query_address: 172.31.9.234
+query_port: 58831
+query_time_sec: 1692031253
+query_time_nsec: 838560327
+response_address: 208.94.148.2
+response_port: 53
+response_time_sec: 1692031253
+response_time_nsec: 838560327
+query_zone: dnsmadeeasy.com.
+response_message: [64 octets]
+;; ->>HEADER<<- opcode: QUERY, rcode: NOERROR, id: 6962
+;; flags: qr aa cd; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags: do; udp: 1280
+;; QUESTION SECTION:
+;ns6.dnsmadeeasy.com. IN A
+
+;; ANSWER SECTION:
+ns6.dnsmadeeasy.com. 86400 IN A 208.80.124.13
+
+;; AUTHORITY SECTION:
+
+;; ADDITIONAL SECTION:
+---
+id: 6962
+qname: ns6.dnsmadeeasy.com.
+qclass: IN (1)
+qtype: A (1)
+rcode: NOERROR (0)
+
+[1083] [TIMESTAMP REMOVED] [1:13 base dnstap] [00000000] [] [] 
+identity: <BYTE ARRAY LEN=30>
+version: <BYTE ARRAY LEN=19>
+type: MESSAGE
+message_type: RESOLVER_RESPONSE
+socket_family: INET
+socket_protocol: TCP
+query_address: 172.31.9.234
+query_port: 33349
+query_time_sec: 1692031253
+query_time_nsec: 790560094
+response_address: 192.42.93.30
+response_port: 53
+response_time_sec: 1692031253
+response_time_nsec: 842560346
+query_zone: com.
+response_message: [969 octets]
+;; ->>HEADER<<- opcode: QUERY, rcode: NOERROR, id: 51643
+;; flags: qr cd; QUERY: 1, ANSWER: 0, AUTHORITY: 10, ADDITIONAL: 12
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags: do; udp: 4096
+;; QUESTION SECTION:
+;ns5.dnsmadeeasy.com. IN A
+
+;; ANSWER SECTION:
+
+;; AUTHORITY SECTION:
+dnsmadeeasy.com. 172800 IN NS ns1.dnsmadeeasy.com.
+dnsmadeeasy.com. 172800 IN NS ns4.dnsmadeeasy.com.
+dnsmadeeasy.com. 172800 IN NS ns3.dnsmadeeasy.com.
+dnsmadeeasy.com. 172800 IN NS ns0.dnsmadeeasy.com.
+dnsmadeeasy.com. 172800 IN NS ns2.dnsmadeeasy.com.
+dnsmadeeasy.com. 172800 IN NS ns8.dnsmadeeasy.com.
+CK0POJMG874LJREF7EFN8430QVIT8BSM.com. 86400 IN NSEC3 1 1 0 - CK0Q2D6NI4I7EQH8NA30NS61O48UL8G5 NS SOA RRSIG DNSKEY NSEC3PARAM
+CK0POJMG874LJREF7EFN8430QVIT8BSM.com. 86400 IN RRSIG NSEC3 8 2 86400 1692332702 1691723702 4459 com. KG+yVspRmO0/JGrTCsvMG67xksY64LooC4THQYNosrgymN7BHU6ZAX+Z7if3YLjdoCh0hzpofsJ0vgbIKrDKltFJXFSPCBNxcprDJIOKQkjO3LT8EPA4z/9r4CzrOUWuhYMPm+XjKJ0gkCeGo9PMiMXDhckAZjiZXCvm6XeUMw5KXT8I281wktXNoVAt8uigNPV53G6fuWfzYbISS1Wc6A==
+IMU45C6LHV3IV39F5CVVQI3SSMFLIIBA.com. 86400 IN NSEC3 1 1 0 - IMU4I4H0PNALL69F8DHGN1L1GARET4UA NS DS RRSIG
+IMU45C6LHV3IV39F5CVVQI3SSMFLIIBA.com. 86400 IN RRSIG NSEC3 8 2 86400 1692592444 1691983444 4459 com. N1kqAkQjYiDmK6HIHTiM3lWAx5+kDyrC9DboCi/JHILiw4viKimizTOtC85Y/kL3l+ir9hvjynEi2pMyHUN06nL03yCwKyMlKQ23ATKPvsJ/HDBZKtQkSXFERm4QtKCjh2E0FA3U/AElreKQXuJh5y4oDYpimWhwDxrIK29O0jk1BCfWqrteUfpojIVyNJA/6oPlsb+OdBC97oqaHxm/6w==
+
+;; ADDITIONAL SECTION:
+ns1.dnsmadeeasy.com. 172800 IN A 208.80.124.2
+ns1.dnsmadeeasy.com. 172800 IN AAAA 2600:1801:1::1
+ns4.dnsmadeeasy.com. 172800 IN A 208.80.127.2
+ns4.dnsmadeeasy.com. 172800 IN AAAA 2600:1802:4::1
+ns3.dnsmadeeasy.com. 172800 IN A 208.80.125.2
+ns3.dnsmadeeasy.com. 172800 IN AAAA 2600:1801:3::1
+ns0.dnsmadeeasy.com. 172800 IN A 208.94.148.2
+ns0.dnsmadeeasy.com. 172800 IN AAAA 2600:1800::1
+ns2.dnsmadeeasy.com. 172800 IN A 208.80.126.2
+ns2.dnsmadeeasy.com. 172800 IN AAAA 2600:1802:2::1
+ns8.dnsmadeeasy.com. 172800 IN A 208.94.149.2
+ns8.dnsmadeeasy.com. 172800 IN AAAA 2600:1800:8::1
+---
+id: 51643
+qname: ns5.dnsmadeeasy.com.
+qclass: IN (1)
+qtype: A (1)
+rcode: NOERROR (0)
+
+[173] [TIMESTAMP REMOVED] [1:13 base dnstap] [00000000] [] [] 
+identity: <BYTE ARRAY LEN=30>
+version: <BYTE ARRAY LEN=19>
+type: MESSAGE
+message_type: RESOLVER_QUERY
+socket_family: INET
+socket_protocol: UDP
+query_address: 172.31.9.234
+query_port: 54825
+query_time_sec: 1692031253
+query_time_nsec: 842560346
+query_message: [60 octets]
+;; ->>HEADER<<- opcode: QUERY, rcode: NOERROR, id: 55117
+;; flags: cd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags: do; udp: 1232
+; OPT=10: db 71 1f 68 f3 27 f9 0d (".q.h.'..")
+;; QUESTION SECTION:
+;ns5.dnsmadeeasy.com. IN A
+
+;; ANSWER SECTION:
+
+;; AUTHORITY SECTION:
+
+;; ADDITIONAL SECTION:
+---
+response_address: 208.94.148.2
+response_port: 53
+query_zone: dnsmadeeasy.com.
+id: 55117
+qname: ns5.dnsmadeeasy.com.
+qclass: IN (1)
+qtype: A (1)
+rcode: NOERROR (0)
+
+[189] [TIMESTAMP REMOVED] [1:13 base dnstap] [00000000] [] [] 
+identity: <BYTE ARRAY LEN=30>
+version: <BYTE ARRAY LEN=19>
+type: MESSAGE
+message_type: RESOLVER_RESPONSE
+socket_family: INET
+socket_protocol: UDP
+query_address: 172.31.9.234
+query_port: 54825
+query_time_sec: 1692031253
+query_time_nsec: 842560346
+response_address: 208.94.148.2
+response_port: 53
+response_time_sec: 1692031253
+response_time_nsec: 842560346
+query_zone: dnsmadeeasy.com.
+response_message: [64 octets]
+;; ->>HEADER<<- opcode: QUERY, rcode: NOERROR, id: 55117
+;; flags: qr aa cd; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags: do; udp: 1280
+;; QUESTION SECTION:
+;ns5.dnsmadeeasy.com. IN A
+
+;; ANSWER SECTION:
+ns5.dnsmadeeasy.com. 86400 IN A 208.94.148.13
+
+;; AUTHORITY SECTION:
+
+;; ADDITIONAL SECTION:
+---
+id: 55117
+qname: ns5.dnsmadeeasy.com.
+qclass: IN (1)
+qtype: A (1)
+rcode: NOERROR (0)
+
+[146] [TIMESTAMP REMOVED] [1:13 base dnstap] [00000000] [] [] 
+identity: <BYTE ARRAY LEN=30>
+version: <BYTE ARRAY LEN=19>
+type: MESSAGE
+message_type: RESOLVER_RESPONSE
+socket_family: INET
+socket_protocol: UDP
+query_address: 172.31.9.234
+query_port: 49242
+query_time_sec: 1692031253
+query_time_nsec: 842560346
+response_address: 65.22.160.17
+response_port: 53
+response_time_sec: 1692031253
+response_time_nsec: 906560657
+query_zone: io.
+response_message: [35 octets]
+;; ->>HEADER<<- opcode: QUERY, rcode: NOERROR, id: 42627
+;; flags: qr aa tc; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags: do; udp: 1232
+;; QUESTION SECTION:
+;fsi.io. IN DS
+
+;; ANSWER SECTION:
+
+;; AUTHORITY SECTION:
+
+;; ADDITIONAL SECTION:
+---
+id: 42627
+qname: fsi.io.
+qclass: IN (1)
+qtype: DS (43)
+rcode: NOERROR (0)
+
+[143] [TIMESTAMP REMOVED] [1:13 base dnstap] [00000000] [] [] 
+identity: <BYTE ARRAY LEN=30>
+version: <BYTE ARRAY LEN=19>
+type: MESSAGE
+message_type: RESOLVER_QUERY
+socket_family: INET
+socket_protocol: UDP
+query_address: 172.31.9.234
+query_port: 57216
+query_time_sec: 1692031254
+query_time_nsec: 38561299
+query_message: [43 octets]
+;; ->>HEADER<<- opcode: QUERY, rcode: NOERROR, id: 58107
+;; flags:; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags: do; udp: 512
+; OPT=10: 86 c2 e4 09 9b b9 69 b6 ("......i.")
+;; QUESTION SECTION:
+;io. IN DNSKEY
+
+;; ANSWER SECTION:
+
+;; AUTHORITY SECTION:
+
+;; ADDITIONAL SECTION:
+---
+response_address: 65.22.163.17
+response_port: 53
+query_zone: io.
+id: 58107
+qname: io.
+qclass: IN (1)
+qtype: DNSKEY (48)
+rcode: NOERROR (0)
+
+[147] [TIMESTAMP REMOVED] [1:13 base dnstap] [00000000] [] [] 
+identity: <BYTE ARRAY LEN=30>
+version: <BYTE ARRAY LEN=19>
+type: MESSAGE
+message_type: RESOLVER_QUERY
+socket_family: INET
+socket_protocol: TCP
+query_address: 172.31.9.234
+query_port: 54635
+query_time_sec: 1692031253
+query_time_nsec: 906560657
+query_message: [47 octets]
+;; ->>HEADER<<- opcode: QUERY, rcode: NOERROR, id: 24789
+;; flags:; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags: do; udp: 1232
+; OPT=10: e8 43 e7 4f 9b 6c 15 78 (".C.O.l.x")
+;; QUESTION SECTION:
+;fsi.io. IN DS
+
+;; ANSWER SECTION:
+
+;; AUTHORITY SECTION:
+
+;; ADDITIONAL SECTION:
+---
+response_address: 65.22.160.17
+response_port: 53
+query_zone: io.
+id: 24789
+qname: fsi.io.
+qclass: IN (1)
+qtype: DS (43)
+rcode: NOERROR (0)
+
+[142] [TIMESTAMP REMOVED] [1:13 base dnstap] [00000000] [] [] 
+identity: <BYTE ARRAY LEN=30>
+version: <BYTE ARRAY LEN=19>
+type: MESSAGE
+message_type: RESOLVER_RESPONSE
+socket_family: INET
+socket_protocol: UDP
+query_address: 172.31.9.234
+query_port: 57216
+query_time_sec: 1692031254
+query_time_nsec: 38561299
+response_address: 65.22.163.17
+response_port: 53
+response_time_sec: 1692031254
+response_time_nsec: 38561299
+query_zone: io.
+response_message: [31 octets]
+;; ->>HEADER<<- opcode: QUERY, rcode: NOERROR, id: 58107
+;; flags: qr aa tc; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags: do; udp: 1232
+;; QUESTION SECTION:
+;io. IN DNSKEY
+
+;; ANSWER SECTION:
+
+;; AUTHORITY SECTION:
+
+;; ADDITIONAL SECTION:
+---
+id: 58107
+qname: io.
+qclass: IN (1)
+qtype: DNSKEY (48)
+rcode: NOERROR (0)
+
+[875] [TIMESTAMP REMOVED] [1:13 base dnstap] [00000000] [] [] 
+identity: <BYTE ARRAY LEN=30>
+version: <BYTE ARRAY LEN=19>
+type: MESSAGE
+message_type: RESOLVER_RESPONSE
+socket_family: INET
+socket_protocol: TCP
+query_address: 172.31.9.234
+query_port: 54635
+query_time_sec: 1692031253
+query_time_nsec: 906560657
+response_address: 65.22.160.17
+response_port: 53
+response_time_sec: 1692031254
+response_time_nsec: 34561279
+query_zone: io.
+response_message: [762 octets]
+;; ->>HEADER<<- opcode: QUERY, rcode: NOERROR, id: 24789
+;; flags: qr aa; QUERY: 1, ANSWER: 0, AUTHORITY: 6, ADDITIONAL: 0
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags: do; udp: 1232
+;; QUESTION SECTION:
+;fsi.io. IN DS
+
+;; ANSWER SECTION:
+
+;; AUTHORITY SECTION:
+0d790076pp5pfktg2hrthj5bj6ckckcb.io. 3600 IN NSEC3 1 1 10 332539ee7f95c32a 0D7N522D3BFMA1LA01BUIOBUK6MROGMU NS SOA RRSIG DNSKEY NSEC3PARAM
+0d790076pp5pfktg2hrthj5bj6ckckcb.io. 3600 IN RRSIG NSEC3 8 2 3600 1693845035 1692027035 47703 io. Dr2vZ3R9chMt0pNfi4ZzZwdzexgXhrV3TG6rMB7a5eBmJCkP39Hw7bknySrcp1mQvJT/XTyuH0E0KfPXke5jAU4trjLW5TsSDaVmPmBaVADpBLIRY91RWnhv6ezxob/rtxwaW6WthwN5P0b919VIr9ZkaDZOwn5EcRDZv318NXc=
+io. 3600 IN SOA a0.nic.io. hostmaster.donuts.email. 1692030319 7200 900 1209600 3600
+io. 3600 IN RRSIG SOA 8 1 3600 1693845035 1692027035 47703 io. AKetYkjCRprtk9bEPeONj7fK/fKW+wtcK3sxeIJbAp/OoDn6G8GQ9UKZG19BvaI4QqV5MpdISoOyAjb9cL/UrnyZ4YnA5PDOI2VeSGuiv34cS0KYTUG8JteqD1WrSwdeYrtibOtJuWZeq6QtdkhG7z5ttTrvpluouAj4DrOZleE=
+4ik0ifks6qf0co8abchv1be42cpoglda.io. 3600 IN NSEC3 1 1 10 332539ee7f95c32a 4IL02QMKRC8419S0CO7FTT636P91GGTR NS DS RRSIG
+4ik0ifks6qf0co8abchv1be42cpoglda.io. 3600 IN RRSIG NSEC3 8 2 3600 1693357105 1691539105 47703 io. UzhY/3lc8eX6cQFX81vIUdSelY9t6uvwki1Y8PKGzyp3p19m1hM1YcpxsgpnoPLSOjk/zaYcMRV/NYxGRJOUVXFiQkrVvO0xEREje4Duq08jYr1uJ8noRcSwPXSSWwq8ErADrGBKRF2cqyiR6+Ow7sKAlVPf/bWLGeGHOG8yveA=
+
+;; ADDITIONAL SECTION:
+---
+id: 24789
+qname: fsi.io.
+qclass: IN (1)
+qtype: DS (43)
+rcode: NOERROR (0)
+
+[143] [TIMESTAMP REMOVED] [1:13 base dnstap] [00000000] [] [] 
+identity: <BYTE ARRAY LEN=30>
+version: <BYTE ARRAY LEN=19>
+type: MESSAGE
+message_type: RESOLVER_QUERY
+socket_family: INET
+socket_protocol: TCP
+query_address: 172.31.9.234
+query_port: 34759
+query_time_sec: 1692031254
+query_time_nsec: 38561299
+query_message: [43 octets]
+;; ->>HEADER<<- opcode: QUERY, rcode: NOERROR, id: 56124
+;; flags:; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 0
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags: do; udp: 1232
+; OPT=10: 86 c2 e4 09 9b b9 69 b6 ("......i.")
+;; QUESTION SECTION:
+;io. IN DNSKEY
+
+;; ANSWER SECTION:
+
+;; AUTHORITY SECTION:
+
+;; ADDITIONAL SECTION:
+---
+response_address: 65.22.163.17
+response_port: 53
+query_zone: io.
+id: 56124
+qname: io.
+qclass: IN (1)
+qtype: DNSKEY (48)
+rcode: NOERROR (0)
+
+[174] [TIMESTAMP REMOVED] [1:13 base dnstap] [00000000] [] [] 
+identity: <BYTE ARRAY LEN=30>
+version: <BYTE ARRAY LEN=19>
+type: MESSAGE
+message_type: CLIENT_RESPONSE
+socket_family: INET
+socket_protocol: UDP
+query_address: 127.0.0.1
+query_port: 53427
+response_address: 127.0.0.1
+response_port: 1972
+response_time_sec: 1692031254
+response_time_nsec: 42561318
+response_message: [79 octets]
+;; ->>HEADER<<- opcode: QUERY, rcode: NOERROR, id: 14879
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 0
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+; OPT=10: 20 42 2b c8 6c 52 2c 63 01 00 00 00 64 da 59 16 00 a6 c6 5c a0 fc a0 bb (" B+.lR,c....d.Y....\....")
+;; QUESTION SECTION:
+;fsi.io. IN A
+
+;; ANSWER SECTION:
+fsi.io. 3600 IN A 104.244.14.13
+
+;; AUTHORITY SECTION:
+
+;; ADDITIONAL SECTION:
+---
+id: 14879
+qname: fsi.io.
+qclass: IN (1)
+qtype: A (1)
+rcode: NOERROR (0)
+
+[1006] [TIMESTAMP REMOVED] [1:13 base dnstap] [00000000] [] [] 
+identity: <BYTE ARRAY LEN=30>
+version: <BYTE ARRAY LEN=19>
+type: MESSAGE
+message_type: RESOLVER_RESPONSE
+socket_family: INET
+socket_protocol: TCP
+query_address: 172.31.9.234
+query_port: 34759
+query_time_sec: 1692031254
+query_time_nsec: 38561299
+response_address: 65.22.163.17
+response_port: 53
+response_time_sec: 1692031254
+response_time_nsec: 38561299
+query_zone: io.
+response_message: [893 octets]
+;; ->>HEADER<<- opcode: QUERY, rcode: NOERROR, id: 56124
+;; flags: qr aa; QUERY: 1, ANSWER: 4, AUTHORITY: 0, ADDITIONAL: 0
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags: do; udp: 1232
+;; QUESTION SECTION:
+;io. IN DNSKEY
+
+;; ANSWER SECTION:
+io. 3600 IN DNSKEY 256 3 8 AwEAAa2wveW/MuDK3A6lJKZLYwQkROmxyJdd3GVUxd0Hz1xhirDfsv4NXGdY299erPLIG6TCrYuiLIJmoVtkj9zA98RWTn4NCsrV1y7oRoEbch98JhJ24TEL73Oo5qx12duBHol6uhLbaWqUfDzmVwR6LMnX4t6hp2dFZjqwjdd2+Ydx
+io. 3600 IN DNSKEY 256 3 8 AwEAAfW9mrut7klVDOgnEeLiQFdjU+QIlK+whsmQS5Dz7AGuyP9W1PNA0T3ePrgdmO5gZENou6Wgq6wkBcU4e4ROPlVLkHXEmjeBGv59nHPldODMuPnxaf9XHnJaKNA5SKTp3M6pNyLnBfT4nxl6MRf4UFqrCQ+5m4Ey/4XZREmh18C3
+io. 3600 IN DNSKEY 257 3 8 AwEAAdgV7ipvizPjJNDZ1O5Ea7hmp+qelixmzCqWbwPH00VOKvlEcWfM/PKGLt+Phj9jVJqDytWIm7Ff7+fUaRMPzMuUW2Z7ViLitxH4iNtKtwU+DMzdGpzRMXFAF1WdbxCF5lWoK0MHsIR5oD9VkwopkttyGnKjYhTDNObYHg8Mi5E9j0FjU4OEpKw6NbZduVKp2pRBBejm/8WKq0O1PukchMa6TQIJlYNsJZNzD1QLcKZWEup+fTvqzAWiK2Su6rlDC7rgwe6OjhrT2ejqlORp3h5S4WJGi3haUczvA/O5GYjhGmXxp5CJ01RJSYG0BsbY1tpEX+9Y4+GhS/nf8Qo0iDc=
+io. 3600 IN RRSIG DNSKEY 8 1 3600 1693357105 1691539105 57355 io. ggm9FFCVx91qww2lbD/Q0b/FdSVmaYNNvNf5ZXM0kqzRphHW/Nz5deU1DMCBANluFv/78Z9Ty7RwlWOGksztetsTFgXncT49AXlbBiQrApC6mvI5efotJLvxwEIphc+Au8MXrqQlXU37O8Ks/5hnwisZaIcPK9vffhD42zW+aYJU93vk1UGGArBKNULvNfpEg/UogyWFrO1BmGqRI8cV3psNTcz4LMEKL94ONhr4zyBh4QvCUjsjeVeGFJyWjpv+aoLdtU8rdWT1Lv03SX8uF35FGpFKeEDe5rSapB/yULqOe2EoCiIiT2OfTPrD8v1d/oXqxPn4sVy4JWjy+68e9A==
+
+;; AUTHORITY SECTION:
+
+;; ADDITIONAL SECTION:
+---
+id: 56124
+qname: io.
+qclass: IN (1)
+qtype: DNSKEY (48)
+rcode: NOERROR (0)
+

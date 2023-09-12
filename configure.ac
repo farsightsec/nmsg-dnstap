@@ -21,7 +21,7 @@ AC_SUBST([my_CFLAGS])
 AC_CONFIG_HEADERS(config.h)
 AC_CONFIG_FILES([Makefile])
 
-PKG_CHECK_MODULES([libnmsg],    [libnmsg >= 1.0.0])
+PKG_CHECK_MODULES([libnmsg],    [libnmsg >= 1.1.1])
 PKG_CHECK_MODULES([libfstrm],   [libfstrm >= 0.6.1])
 PKG_CHECK_MODULES([libzmq],     [libzmq >= 4.0.0])
 PKG_CHECK_MODULES([libevent],   [libevent >= 2])
