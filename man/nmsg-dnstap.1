@@ -2,7 +2,7 @@
 
 .SH NAME
 
-nmsg-dnstap \- Receive Frame Streams data from a socket and sends to ZeroMQ or UDP endpoint(s).
+nmsg-dnstap \- Receive Frame Streams DNSTAP from a socket and sends NMSG to ZeroMQ or UDP endpoints
 
 .SH SYNOPSIS
 
@@ -16,7 +16,7 @@ nmsg-dnstap \- Receive Frame Streams data from a socket and sends to ZeroMQ or U
 
 .PP
 
-.B nmsg-dnstap [ --write \fIzep\fB [ --write ... ] ]
+.B nmsg-dnstap [ --writezsock \fIzep\fB [ --writezsock ... ] ]
 .br
 .B "	[ --writesock \fIsep\fB [ --writesock ... ] ]
 .br
@@ -25,25 +25,28 @@ nmsg-dnstap \- Receive Frame Streams data from a socket and sends to ZeroMQ or U
 .B "	[ --type \fIcontent-type\fB ] [ --buffersize \fIbuffer-size\fB ]"
 .br
 .B "	[ --debug [--debug ...] ]"
+.br
+.B "	[ --unbuffered ]"
 
 
 .SH DESCRIPTION
 
 .B nmsg-dnstap
 listens on a UNIX domain or TCP socket, receives Frame Streams data,
-and sends to ZeroMQ endpoint(s) and/or UDP-socket endpoint(s).
+and sends NMSG base:dnstap payloads to ZeroMQ endpoint(s) and/or
+UDP-socket endpoint(s).
 
 .SH OPTIONS
 
 .TP
-.B -w \fIzep\fB | --write \fIzep\fB
-Write data to a ZeroMQ endpoint.
+.B -w \fIzep\fB | --writezsock \fIzep\fB
+Write NMSG data to a ZeroMQ endpoint.
 See \fInmsgtool\fR man-page for a full description of the options available here.
 
 .TP
 .B -s \fIsep\fB | --writesock \fIsep\fB
-Write data to a UDP socket endpoint. This is of the form \fIIPAddress/Port\fR.
-There must be at least one \fB-w/--write\fR or \fB-s/--writesock\fR option specified.
+Write NMSG data to an UDP socket endpoint. This is of the form \fIIPAddress/Port\fR.
+There must be at least one \fB-w/--writezsock\fR or \fB-s/--writesock\fR option specified.
 
 .TP
 .B -t \fIcontent-type\fB | --type \fIcontent-type\fB
@@ -81,9 +84,14 @@ Increase debugging level. Without \fB-d\fR, \fBnmsg-dnstap\fR prints only
 critical error messages. Up to five \fB-d\fR options may be specified, after
 which more repetitions will have no effect.
 
+.TP
+.B --unbuffered
+Disable NMSG output buffering.
+This may be useful for testing.
+
 .SH EXAMPLES
 
-Receive dnstap data and send to ZeroMQ endpoint \fI/tmp/nmsg.sock\fR on the local machine.
+Receive dnstap data and sends NMSG payloads to ZeroMQ endpoint \fI/tmp/nmsg.sock\fR on the local machine.
 
 .nf
 	nmsg-dnstap -u /var/run/named/dnstap.sock \\

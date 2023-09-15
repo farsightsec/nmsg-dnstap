@@ -102,6 +102,7 @@ struct cmdline_args {
 	int			buffer_size;
 	unsigned		debug;
 	bool			help;
+	bool			unbuffered;
 };
 
 static struct globals		g_program_ctx;
@@ -157,13 +158,20 @@ static argv_t g_args[] = {
 		ARGV_CHAR_P | ARGV_FLAG_ARRAY,
 		&g_program_args.w_sock,
 		"<sep>",
-		"write nmsg data to socket (addr/port)" },
+		"write nmsg data to UDP socket (addr/port)" },
 
-	{ 'w', "write",
+	{ 'w', "writezsock",
 		ARGV_CHAR_P | ARGV_FLAG_ARRAY,
 		&g_program_args.w_zmq,
 		"<zep>",
-		"write output data to ZeroMQ endpoint" },
+		"write nmsg data to ZeroMQ endpoint" },
+
+        /* NMSG buffering is enabled by default */
+	{ '\0', "unbuffered",
+		ARGV_BOOL,
+		&g_program_args.unbuffered,
+		NULL,
+		"disable NMSG output buffering" },
 
 	{ ARGV_LAST, 0, 0, 0, 0, 0 },
 };
@@ -444,6 +452,8 @@ output_open(struct globals *ctx)
 			usage(NULL);
 		}
 
+		nmsg_output_set_buffered(out, !(ctx->args->unbuffered));
+
 		s_outputs[s_num_outputs++] = out;
 	}
 
@@ -482,6 +492,8 @@ output_open(struct globals *ctx)
 			fprintf(stderr, "%s: ERROR: failed to open socket endpoint '%s'\n", argv_program, spec);
 			usage(NULL);
 		}
+
+		nmsg_output_set_buffered(out, !(ctx->args->unbuffered));
 
 		s_outputs[s_num_outputs++] = out;
 	}

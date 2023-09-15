@@ -1,0 +1,21 @@
+Source: nmsg-dnstap
+Section: net
+Priority: optional
+Maintainer: Farsight Security, Inc. <software@farsightsecurity.com>
+Build-Depends:
+ debhelper-compat (= 13),
+ fstrm-bin,
+ libevent-dev (>= 2.0.0~),
+ libevent-pthreads-2.1-7 (>= 2.0.0~),
+ libfstrm-dev (>= 0.6.1~),
+ libnmsg-dev (>= 1.1.1~),
+ libzmq3-dev (>= 4.0.0~),
+ nmsgtool,
+Standards-Version: 4.5.1
+
+Package: nmsg-dnstap
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: NMSG DNSTAP tool
+ Forward Frame Streams DNSTAP data in NMSG format to UDP or ZeroMQ
+ endpoints, unfiltered.
