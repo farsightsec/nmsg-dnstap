@@ -1,6 +1,6 @@
 # NMSG Dnstap Tool
 
-`nmsg-dnstap` takes Frame Streams data as input and sends it in nmsg format to ZeroMQ endpoints. The data is not filtered.
+`nmsg-dnstap` takes Frame Streams data as input and sends it in nmsg format to ZeroMQ or UDP endpoints. The data is not filtered.
 
 ## Building
 
