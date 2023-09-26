@@ -32,7 +32,7 @@ src_nmsg_dnstap_SOURCES = \
 	libmy/my_alloc.h \
 	libmy/print_string.h
 
-man_MANS = man/nmsg-dnstap.1
+dist_man_MANS = man/nmsg-dnstap.1
 
 AM_TESTS_ENVIRONMENT= abs_top_builddir='$(abs_top_builddir)' abs_top_srcdir='$(abs_top_srcdir)'
 
